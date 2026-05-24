@@ -1,0 +1,6 @@
+.env
+.env.*
+.DS_Store
+public-encrypted/
+.staticrypt.json
+encrypted/
