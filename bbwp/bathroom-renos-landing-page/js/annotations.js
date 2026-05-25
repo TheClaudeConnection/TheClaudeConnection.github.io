@@ -22,7 +22,7 @@
     injectAnnotationUI();
     wireEvents();
     loadComments();
-    setInterval(loadComments, 30000);
+    setInterval(loadComments, 10000);
   }
 
   // ─── Supabase ────────────────────────────────────────────────────────────────
