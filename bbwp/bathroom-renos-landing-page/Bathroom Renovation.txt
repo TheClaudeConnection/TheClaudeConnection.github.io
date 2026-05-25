@@ -1,0 +1,1007 @@
+                     QUESTIONS TO ANSWER
+Service scope
+
+   ●​ Are you offering full bathroom renovations, or only selected renovation works around
+      waterproofing?
+         ○​ Full bathroom renovations
+   ●​ Do you handle demolition, carpentry, plumbing, electrical, tiling, glazing, painting and
+      cabinetry?
+         ○​ Yes we handle all of the above
+   ●​ Which of these are in-house, subcontracted, or project-managed?
+         -​ Project management, demolition, carpentry and waterproofing with the rest
+             using subcontractors
+   ●​ Are you doing ensuites, powder rooms, laundries and accessibility bathrooms too?
+         -​ Yes all of the above
+
+Offer structure
+
+   ●​ Do you want to target homeowners only, or also builders / investors / property
+      managers?
+           -​ Yes all of the above although most builders would manage it themselves i
+              imagine
+   ●​ Is there a minimum project value?
+           -​ About 20k is the minimum for a really small basic one with budget fixtures
+   ●​ Do you want to target budget, mid-range, premium, or all three?
+           -​ I think we stick to budget and mid range primarily as the premium market
+              looks pretty crowded
+   ●​ Do you want to position yourselves as practical/value-led or premium/custom?
+           -​ practical/quality feels right and with the bathroom waterproofing specialty
+
+Quoting
+
+   ●​ Do you offer free site visits?
+         -​ Yes
+   ●​ Do you give ballpark estimates before a site visit?
+         -​ Yes we can based on photos and measurements
+   ●​ Are quotes fixed-price?
+         -​ Yes
+   ●​ What usually pushes a project outside the original estimate?
+         -​ Discovery of water related damage
+
+Timeframes
+
+   ●​ How soon can you start on a client’s bathroom renovation?
+        -​ Currently within 2 weeks
+   ●​ What is the average duration of a standard renovation?
+        -​ 3-4 weeks (working on how to do it in 2 weeks currently)
+   ●​ How far out are the renovations booked from the point of first enquiry?
+          -​    Within 1 week depending on speed of client selections for items like vanities
+                and tiles
+
+Design & selections
+
+   ●​ Do you help with layout planning?
+         -​ Yes we do
+   ●​ Do you provide design advice, renders, or only practical guidance?
+         -​ Yes we will be providing floor plans going forwards
+   ●​ Can clients supply their own fixtures and tiles?
+         -​ Absolutely we just adjust the price
+   ●​ Do you have preferred suppliers? If so, who?
+         -​ We primarily work with Beaumont and National tiles and Highgrove and
+             Reece for fixtures
+
+Proof & trust
+
+   ●​ How many full renovations have you completed so far?
+         -​ Bit of a grey area as we have only technically had the license for about 4
+             weeks so I’d not publicise this. Come at it from the POV of Get your bathroom
+             renovated by Brisbane’s Bathroom Waterproofing Experts.
+   ●​ Do you have any before/after photos? If so, please provide.
+         -​ Yes we have a few good ones we can send over
+   ●​ Do you have any completed renovation testimonials or case studies? If so, please
+      provide.
+         -​ Yes we have a few great reviews we can use and I’m working on getting
+             more.
+   ●​ What exact licences and certifications should be shown that are specific to Bathroom
+      Renovations? Master Builders Certification?
+         -​ Yes we now have a Kitchen & Bathroom Builders License, Carpentry License
+             and Waterproofing License
+   ●​ What exact warranty applies to renovation workmanship vs waterproofing vs supplied
+      products?
+         -​ Standard Construction Warranty of 12 Months on minor defects, 7 years on
+             Leaks or any structural defect, 10 years on the waterproofing product we use.
+
+Accessibility / ageing-in-place
+
+   ●​ Do you want to target accessible bathrooms (i.e. walk-in showers, grab rails,
+      easy-access layouts, slip resistance, etc.?
+         -​ We have one we did recently with photos and a great review so we can
+             definitely run an ad for this but I wouldn’t say we’re looking to target it
+             specifically
+
+Any other competitors to reference:
+
+   ●​ Blutec for waterproofing
+●​ Ark Bathrooms for Bathroom renovations but they are more the premium side and
+   we’re definitely at looking at filling the gap below them for reasonable price and great
+   quality
+                   THE LANDING PAGE LOGIC
+“We have always understood the most critical part of a bathroom renovation - now we
+offer the complete renovation service with that same technical care.”
+
+
+
+“Bathroom renovations by waterproofing specialists.”
+
+That is the cleanest way to make Brisbane Bathroom Waterproofing believable in
+renovations quickly. The current site is heavily positioned around waterproofing rather than
+renovations, but it already contains trust assets we can repurpose: QBCC licensing,
+fixed-price services, a 7-year warranty, servicing across South East Queensland, and “over
+600 bathrooms and counting.” It also has a testimonial that explicitly describes completing a
+full bathroom renovation including carpentry, plumbing, tiling, glass shower screen, vanity,
+lighting and paint, which is gold for this service expansion.
+
+The conversion logic behind the whole page
+
+The page should follow this sequence:
+
+Intent match → trust → unique angle → scope → process → inclusions → price
+framing → aspiration → proof → objection handling → CTA
+
+That order works because bathroom renovation buyers usually move through these
+questions in roughly this order:
+
+   1.​ Do you do this?
+   2.​ Can I trust you?
+   3.​ Why you over others?
+   4.​ What kind of projects do you handle?
+   5.​ How does the process work?
+   6.​ What’s included?
+   7.​ What will this cost?
+   8.​ Can you achieve the look I want?
+   9.​ Have others had a good experience?
+   10.​What about my final concerns?
+   11.​How do I take the next step?
+
+Recommended landing page structure
+   1.​ Hero Section + Lead Form
+   2.​ Immediate Trust / Proof Bar
+   3.​ Our Point of Difference: Why Renovate with Brisbane’s Waterproofing Experts?
+   4.​ Renovation Services / Project Types
+   5.​ Our Process
+   6.​ What’s Included
+   7.​ Cost Guidance
+8.​ Design Styles/Inspiration
+9.​ Why Choose Us?
+10.​Reviews / Testimonials
+11.​FAQs
+12.​Final CTA
+1. Hero section
+
+Goal: make the page instantly relevant for high-intent searches and give people an easy
+next step.
+
+What to include
+
+   ●​ H1: Bathroom Renovations Brisbane
+   ●​ Subhead: something like​
+      Full bathroom renovations delivered by Brisbane’s waterproofing specialists.
+      From demolition to waterproofing, tiling and fit-off, we help homeowners and
+      investors renovate with confidence.
+   ●​ Primary CTA button: Get My Renovation Quote
+   ●​ Secondary CTA: Call 0452 445 992
+   ●​ Short quote form in the hero
+   ●​ Trust chips directly under the CTA:
+         ○​ QBCC Licensed & Insured
+         ○​ 7 Year Waterproofing Warranty
+         ○​ 600+ Bathrooms
+         ○​ Brisbane, Gold Coast & Sunshine Coast
+
+Recommended form fields
+
+   ●​   Name
+   ●​   Phone
+   ●​   Email
+   ●​   Suburb
+   ●​   Renovation type
+   ●​   Desired timeframe
+   ●​   Brief project details
+
+Optional: Upload photos after submission, not as a required first-step field.
+
+Why this comes first​
+This is where intent matching and friction reduction happen. Someone landing here wants to
+know three things immediately: ​
+“Do you do the service I need?”​
+“Can I trust you?”​
+“What do I do next?”​
+​
+The current site already uses a simple lead form with Name, Email, Phone, Address and
+Comments, which supports keeping this version lean rather than technical.
+2. Immediate trust / proof bar
+
+Goal: reassure before people scroll away.
+
+What to include​
+A slim strip with 4-6 proof points:
+
+   ●​   Fixed Price Services
+   ●​   QBCC Licensed & Insured
+   ●​   7 Year Warranty
+   ●​   Waterproofing Specialists
+   ●​   Premium Materials
+   ●​   Servicing South East Queensland
+
+Why here​
+Bathroom renovations are high-friction, high-trust purchases. Proof must appear before
+long-form explanation. BBW already has these proof elements scattered across the current
+site, so this section is mostly repackaging, not inventing.
+3. Our Point of Difference: Why Renovate with Brisbane’s Waterproofing Experts?
+
+Goal: create a differentiated reason to choose them over generic bathroom renovators.
+
+What to include​
+A short section reframing the decision:
+
+   ●​ A bathroom can look beautiful and still fail if what’s behind the tiles is poor
+   ●​ Waterproofing is one of the most important parts of a renovation
+   ●​ BBW’s edge is that they understand the technical side, not just the finish
+
+Suggested subheading:​
+A bathroom renovation should look great - and be built to last behind the tiles.
+
+Why here​
+This is our strongest strategic advantage. Most competitors can talk about style, luxury or
+project management. BBWP’s real edge is “we know wet areas properly.” The current site
+repeatedly leans into technical waterproofing expertise and the importance of getting it right
+the first time.
+4. Renovation Services / Project Types
+
+Goal: help users self-identify and qualify themselves.
+
+What to include​
+Cards or icon blocks for:
+
+   ●​   Main bathroom renovations
+   ●​   Ensuite renovations
+   ●​   Powder room renovations
+   ●​   Apartment / unit bathrooms
+   ●​   Bathroom + laundry combinations
+   ●​   Accessibility / ageing-in-place bathrooms
+   ●​   Investor / pre-sale renovations
+
+Why here​
+This broadens relevance without making the offer feel vague. Your research showed this
+kind of category coverage repeatedly across competitors, and it helps capture more search
+intent without forcing everything into one generic “bathroom renovations” bucket.
+5. Our Process
+
+Goal: reduce uncertainty and make the job feel manageable.
+
+Recommended 5-step version
+
+   1.​ Initial enquiry - tell us about your bathroom and goals
+   2.​ Site visit & consultation - assess layout, access, waterproofing and scope
+   3.​ Fixed quote & scope - clear inclusions, timeline and next steps
+   4.​ Selections & scheduling - finalise fixtures, finishes and start date
+   5.​ Build & handover - demolition, waterproofing, renovation works and final
+       walkthrough
+
+Why here​
+Process is a major anxiety reducer in renovation services. Your notes specifically highlighted
+competitor pages with good process sections, especially the more polished “guided journey”
+approach. This section is important because renovation buyers are not just buying an
+outcome; they are buying confidence in the path.
+6. What’s Included in a Standard Bathroom Renovation
+
+Goal: help visitors compare “apples with apples.”
+
+What to include​
+A visual inclusions section, ideally grouped by:
+
+   ●​   Demolition & preparation
+   ●​   Plumbing & electrical
+   ●​   Sheeting & waterproofing
+   ●​   Tiling & grouting
+   ●​   Fixtures & fittings
+   ●​   Finishing touches
+
+Why here​
+This is one of the highest-value sections on the page because “what do I actually get?” is
+one of the biggest objections in bathroom renos. Your notes rightly picked out inclusions as a
+strong competitor element. It also helps BBW link renovations back to their waterproofing
+credibility.
+7. Cost guidance section
+
+Goal: reduce price anxiety without boxing the client into fake certainty.
+
+Best approach for now​
+Because the client has given you no operational detail, I would not publish hard package
+pricing yet.
+
+Instead use:​
+What is a reasonable budget for a bathroom renovation?
+
+Bathroom renovation costs in Brisbane can vary widely depending on the size, condition and
+complexity of the project. As a general guide, many standard full bathroom renovations sit
+somewhere in the low-to-high $20,000s, while simpler cosmetic upgrades may cost less and
+larger or more customised renovations with premium finishes can exceed $40,000.
+
+The cost of your renovation will depend on factors such as bathroom size, layout changes,
+apartment access, asbestos, tile and fixture selections, structural work, custom cabinetry or
+glazing, and any waterproofing or substrate issues uncovered during strip-out.
+
+Because every bathroom is different, we recommend a complimentary consultation and
+on-site inspection before providing pricing. This allows us to properly assess your project
+and prepare a tailored fixed price quote, giving you clarity around costs and greater
+confidence moving forward with your renovation.
+
+Then CTA:​
+Get a tailored renovation quote
+
+Why not do packages​
+Your research includes budget/mid-range/luxury tiers and “from $25k” thinking, but without
+confirmed deliverables, minimum spend, margin targets and actual quoting logic, package
+pricing could create bad leads and sales friction. Better to introduce pricing logic first, then
+add “starting from” numbers later once the client confirms them.
+8. Design styles / inspiration section
+
+Goal: create desire even if they do not yet have a deep renovation portfolio.
+
+What to include​
+ A section like:​
+​
+What style suits your bathroom?
+
+   ●​   Modern minimal
+   ●​   Coastal light
+   ●​   Classic timeless
+   ●​   Luxe hotel
+   ●​   Practical family
+   ●​   Traditional
+   ●​   Accessible & easy-clean
+
+Why here​
+This is a smart workaround that lets the page feel aspirational without pretending we have a
+massive library of completed renovation case studies. It also helps users articulate their
+taste before the consultation.
+9. Why Choose Brisbane Bathroom Waterproofing
+
+Goal: stack the core reasons to trust BBWP.
+
+Recommended points
+
+   ●​   Waterproofing specialists, not just surface-level renovators
+   ●​   QBCC licensed & insured
+   ●​   600+ bathrooms completed
+   ●​   Fixed-price quoting
+   ●​   Premium low-VOC products
+   ●​   7-year warranty
+   ●​   One accountable project manager & team from wet-area prep through completion
+   ●​   Servicing Brisbane and surrounds
+
+Why here​
+By this point the visitor understands the offer. Now they need the business case for why this
+company, specifically. BBWP already has the raw proof - it just needs to be organised
+around the renovation decision.
+10. Reviews / testimonial proof
+
+Goal: validate the claims with real customer language.
+
+What to include​
+Lead with the existing renovation-specific testimonial because it is far more powerful for this
+page than a generic waterproofing review. That review says they completed a full demolition
+and renovation including carpentry, plumbing, tiling, glass shower screen, vanity, lighting and
+paint.
+
+Then add 2–4 shorter reviews focused on:
+
+   ●​   communication
+   ●​   professionalism
+   ●​   workmanship
+   ●​   being easy to deal with
+
+Why here​
+Testimonials work best once the visitor already understands the offer and is now asking, “Do
+other people trust these guys with a project this big?”
+11. FAQ section
+
+Goal: remove final objections and improve SEO depth.
+
+Top FAQs to include
+
+   ●​   How much does a bathroom renovation cost in Brisbane?
+   ●​   How long does a bathroom renovation take?
+   ●​   Do you provide fixed quotes?
+   ●​   Do you help with design and selections?
+   ●​   Can I supply my own fixtures and tiles?
+   ●​   Do you handle waterproofing in-house?
+   ●​   What warranty do you provide?
+   ●​   Do I need council approval?
+   ●​   Can you renovate apartment bathrooms?
+   ●​   What happens if asbestos is found?
+
+Why here​
+The research shows FAQs are doing heavy lifting on competitor pages around cost, timing,
+warranty, design help, fixtures, approval and asbestos. They are ideal for both conversion
+and search intent capture.
+12. Final CTA section
+
+Goal: capture people who needed the full scroll before converting.
+
+What to include
+
+   ●​   Headline: Ready to renovate your bathroom?
+   ●​   Short paragraph
+   ●​   Repeat the short quote form
+   ●​   Phone number
+   ●​   Optional note: “Upload photos after enquiry for a faster estimate”
+
+Why here​
+People convert at different stages. Some act in the hero, others only after process + FAQs. A
+final CTA catches the second group.
+                            THE RESEARCH
+Competitor Pages
+  ●​ https://www.bencobathrooms.com.au/
+  ●​ https://www.theplumbinggang.com/
+  ●​ https://www.brisbanebathrooms.com/
+  ●​ https://modernbathrooms.com.au/ - very basic
+  ●​ LOVE - https://capitalbathrooms.com.au/services/
+  ●​ https://arkbathrooms.com.au/
+  ●​ https://showerdr.com.au/bathroom-renovations-brisbane/
+  ●​ NOTEWORTHY - Think this will become a big market as the population ages - Good
+     page that explains in detail
+          ○​ https://showerdr.com.au/disabled-bathroom-renovations/
+  ●​ https://batsbathrooms.com.au/ - Sister company to Shower Doctor
+  ●​ https://build.heliosdesignandconstruct.com.au/ - Giving luxe, has a nice “Our
+     Process.”
+  ●​ https://www.bestbrisbanebathrooms.com.au/
+  ●​ https://bespokebathrooms.com.au/
+  ●​ https://www.kudabathrooms.com.au/
+  ●​ https://hunterbathroomsbrisbane.com.au/ - Basic, some trust signals
+  ●​ https://goldstarbathrooms.com.au/bathroom-renovations - Simple, has some good
+     trust signals
+  ●​ https://ourbathrooms.com.au/ - basic
+  ●​ https://www.exclusivbathrooms.com.au/bathroom-renovation-pricing-guide/ - not ideal
+     for landing page but would be a good info page as it covers pricing quite
+     comprehensively
+  ●​ https://www.brisbanebathroomspecialists.com.au/ - basic
+  ●​ https://www.kudabathrooms.com.au/
+
+Reddit Posts:
+   ●​ https://www.reddit.com/r/brisbane/comments/197ycof/bathroom_renovation_reccome
+       ndations/
+   ●​ https://www.reddit.com/r/brisbane/comments/1e9at5m/bathroom_reno_recommendat
+       ions/
+   ●​ https://www.reddit.com/r/brisbane/comments/1rbwuhf/bathroom_renovations/
+Bathroom Elements
+Key Elements
+   ●​ Bathroom Reno Quote Form - “Get an Estimate”
+         ○​ Example 1
+                ■​ Name
+                ■​ Email Address
+                ■​ Phone
+                ■​ Address
+                ■​ Timeframe to Start Work
+                ■​ Renovation Type
+                ■​ Project Budget
+                ■​ Details
+         ○​ Example 2
+                ■​ Name
+                ■​ Email Address
+                ■​ Phone
+                ■​ Address
+                ■​ Renovation Size
+                ■​ Message
+         ○​ Example 3 - This is a lot to ask, whilst comprehensive I think this will kill
+             conversion. I wonder if these questions might be better to ask over the
+             phone?
+                ■​ Name
+                ■​ Email Address
+                ■​ Phone
+                ■​ Address
+                ■​ Is your property an apartment/unit?*
+                ■​ Room Length/Width/Ceiling Height
+                ■​ Would you like a bath in your bathroom
+                ■​ Would you like to change the layout of your bathroom?
+                ■​ If you would like a new layout, please describe these changes, or
+                    upload a plan/diagram below.
+                ■​ On what level of your property is your bathroom located?*
+                ■​ What is the floor beneath the tiles in your bathroom made of (concrete
+                    slab, timber etc)?*
+                ■​ Is there asbestos in your bathroom?*
+                ■​ Please upload at least one (1) photograph of your existing bathroom,
+                    and any plans/drawings you may have of the proposed layout. (Note -
+                    we aren't able to provide an estimate without seeing a photograph of
+                    your existing bathroom space).*
+                ■​ Any other important information we should know about your
+                    bathroom?
+                ■​ Would you like to include a second bathroom?
+   ●​ Our Process
+         ○​ Example 1
+                ■​ Free consultation & quote
+                ■​ Design planning & approvals
+                ■​ Demolition & prep
+            ■​ Rough-in Plumbing
+            ■​ Fit-Off, Finishing touches & clean-up
+      ○​ Example 2
+            ■​ Step 1: Get inspired
+                   ●​ Envision what you want in your new space, what you would
+                        like to achieve.
+            ■​ Step 2: Initial email estimate
+                   ●​ You provide us the details of your renovation online or via
+                        email, and we provide an obligation-free estimate for your
+                        project.
+            ■​ Step 3: Site visit
+                   ●​ If our initial estimate meets your expectations, we move onto a
+                        site visit to discuss the details of your project, including fittings,
+                        layout and design.
+            ■​ Step 4: Sign-up
+                   ●​ We will meet with you onsite to sign a contract and lock in a
+                        start date for your renovation.
+            ■​ Step 5: Selection of fittings and fixtures
+                   ●​ You will visit our recommended suppliers to select and
+                        purchase the items required for your renovation.
+            ■​ Step 6: Construction
+                   ●​ Our team of experienced, qualified tradespeople will build your
+                        new bathroom, adhering to the highest standards of quality.
+            ■​ Step 7: Enjoy your new space!
+                   ●​ The hard work has all been done, now it's time to enjoy your
+                        beautiful new bathroom!
+      ○​ Example 3
+            ■​ 1. Consultation
+                   ●​ We discuss your vision, needs, and budget to create a custom
+                        plan.
+            ■​ 2. Design
+                   ●​ Our team creates detailed 3D renderings and material
+                        selections.
+            ■​ 3. Construction
+                   ●​ Licensed professionals execute the renovation with precision.
+            ■​ 4. Completion
+                   ●​ Final walkthrough and quality check to ensure perfection.
+●​ Our Renovation Services
+
+       ○​ Example 1
+             ■​ Complete Bathroom Remodels
+                    ●​ Full-service renovations from concept to completion,
+                        transforming your outdated bathroom into a modern sanctuary.
+             ■​ Shower & Tub Installation
+                    ●​ Expert installation of walk-in showers, soaking tubs, and
+                        modern fixtures tailored to your space.
+             ■​ Tile & Flooring
+             ●​ Premium tile work and waterproof flooring solutions that
+                 combine beauty with durability.
+      ■​ Vanity & Storage
+             ●​ Custom vanities and smart storage solutions to maximize
+                 space and functionality.
+○​ Example 2
+      ■​ Fully Licensed & Insured - High Quality Bathrooms
+             ●​ Our team is focused on delivering a space that is fit for
+                 purpose and inspires relaxation. Our renovation experts are
+                 not only licensed but can offer you design innovations and cost
+                 savings for a vast range of spaces, including:
+                     ○​ Master bathrooms
+                     ○​ Ensuite bathrooms
+                     ○​ Powder bathrooms
+                     ○​ Apartment bathrooms
+                     ○​ Luxury bathrooms
+                     ○​ Bathroom / laundry combinations
+                     ○​ Outdoor bathrooms
+                     ○​ Aged care & disability
+                     ○​ Laundries
+             ●​ Our Services - We specialise in providing affordable bathroom
+                 renovation services that suit all budgets and design aesthetic.
+                 You can rest easy knowing we are fully licensed and insured,
+                 offering experience across bespoke, designer, ensuite,
+                 apartment, luxury, modern, aged care and disability bathrooms.
+                     ○​ Residential Bathrooms
+                              ■​ Whether you are looking to renovate your
+                                 existing bathroom, ensuite, powder room, or
+                                 laundry, our team Bathroom Renovation team
+                                 will work with you to create a space that is
+                                 tailored to your taste, lifestyle, and budget.
+                     ○​ Investment Bathrooms
+                              ■​ We provide a complete design and renovation
+                                 service for investment properties, helping
+                                 owners improve property tenancy and maximise
+                                 value for money. By selecting from one of our
+                                 investor packages, owners make extensive
+                                 savings.
+                     ○​ Renovating to Sell
+                              ■​ Want to increase your home’s worth ahead of a
+                                 future sale. Having an attractive bathroom or
+                                 laundry will always appeal to the savvy buyer.
+                                 Capital Bathrooms are here to help you
+                                 transform your space and add value to your
+                                 property.
+○​ Example 3 - https://capitalbathrooms.com.au/residential/
+○​ Example 4 - Helios
+      ■​ The Path to a Home You’ll Love Living In.
+             ●​ From the first ideas to the final handover, we make
+                transforming your home feel as effortless as it is exciting. Each
+                step in our process guides you towards a home that feels
+                uniquely yours.
+      ■​ Stage 01 - Discovery call
+             ●​ Our team takes the time to understand your goals so we can
+                shape a design that truly reflects how you want to live. This
+                conversation sets the foundation for the exciting journey
+                ahead.
+      ■​ Stage 02 - Design and building consultation
+             ●​ We explore your ideas in depth and provide expert guidance to
+                help you make the most of your space. You’ll learn what’s
+                possible, what adds the most value, and how your renovation
+                can complement your lifestyle.
+      ■​ Stage 03 - Concept design and project cost analysis
+             ●​ We take your vision and turn it into a tailored concept design
+                supported by transparent costings. This gives you a clear
+                picture of the investment required and the lifestyle benefits our
+                work delivers.
+      ■​ Stage 04 - Detailed design and selections
+             ●​ Together, we refine everything from layouts to fixtures and
+                fittings, making sure it suits your taste and the way you live.
+                This is where you’ll see your vision truly come to life with
+                complete clarity.
+      ■​ Stage 05 - Construction and delivery
+             ●​ Our team manages every aspect of your renovation for a
+                stress-free build that unfolds smoothly. You’ll come back to a
+         beautifully finished home that enriches your lifestyle – ready for
+         the years ahead.
+■​ Example 5 - Tradepro Installations
+●​ DESIGN STYLE
+     ○​ What Design Suits You - This would be a great way around having to show
+        examples of work we’ve done. The emphasis is on showing what’s popular
+        and helping them to put words to their design style. It helps us show that
+        we’re capable of delivering any design style, without actually providing
+        specific jobs we’ve done.
+
+
+
+
+●​ Energy Efficiency
+      ○​ Eco Aware
+      ○​ Renovating your bathroom is not only great to create a more attractive and
+         stylish space. But it is also an opportunity to make sure that your appliances
+         and fittings are designed to be both water and energy saving. Capital
+         Bathrooms can provide you with insight on the most suitable and high-quality
+         materials and fixtures to incorporate into your bathroom renovation while
+         never compromising on design or innovation.
+              ■​ Water-saving flush systems
+              ■​ Water-efficient taps and showerheads
+              ■​ Low energy extraction fans
+              ■​ Low energy LED lighting
+              ■​ Natural products, such as stone or sustainably sourced timber
+              ■​ Use of recycled or reclaimed products
+
+●​ Scale of Renovations
+      ○​ Budget
+        ■​ Cost Effective Upgrades, focussing on impactful choices, thoughtful
+            layout & quality materials.
+        ■​ How we work with you?
+        ■​ Prices starting from $25K? How quoting works. Justifying the price.
+        ■​ Standard Full Renovation: A complete remodel including layout
+            updates, new fixtures (toilet, vanity, shower/bath), tiling, cabinetry and
+            painting. Perfect for refreshing your bathroom with modern style and
+            functionality.
+        ■​
+○​   Mid-Range
+        ■​ Blend of style and practicality
+        ■​ Pricing from $28K?
+        ■​ Premium Full Renovation: Everything in a Standard renovation, plus
+            higher-end finishes, designer fixtures, upgraded tiling, custom lighting,
+            and additional features like heated floors or custom cabinetry.
+        ■​
+○​   Luxury
+        ■​ Our approach - detailed quoting, responsive communication,
+            seamless, personal and completely customised renovation
+            experience.
+        ■​ No price listed.
+        ■​ Luxury Full Renovation: A top-tier, fully custom remodel with premium
+            materials, bespoke design elements, spa-like features (freestanding
+            bath, rainfall shower, smart lighting), and personalised layout changes
+            for maximum comfort and style. With this option, we leave no stone
+            unturned.
+○​   Reviews
+○​   Projects/Examples Gallery
+○​   Trust Signals
+○​ Why Choose Us - Our Authority
+      ■​ Our Team, Experience & Licensing
+            ●​ Carpenters, plumbers, tilers, electricians & waterproofing
+                technicians.
+      ■​ How many years’ combined experience?
+      ■​ No. Projects Completed
+      ■​ Areas We Service
+      ■​ What we deliver?
+            ●​ 100% Customer Satisfaction
+            ●​ Licenced, Experienced & Insured
+            ●​ Transparent Pricing - No Hidden Fees - Clear Price from Day
+                One
+            ●​ Warranties - Quality of Workmanship Guarantee, Only Using
+                High Quality Materials
+            ●​ Responsive Communication
+            ●​ From Budget to Luxury
+            ●​ One Project Manager.
+            ●​ One Stop Shop - We handle every detail start to finish.
+            ●​ Custom Designs - Tailored to Fit Your Style & Budget
+      ■​ One company with full responsibility.
+            ●​ The Shower Dr’s “one-stop” team means that you don’t have
+                to engage multiple contractors or deal with slipping deadlines
+                and unexpected price changes. We deliver on time and to an
+                agreed quote, no extras and no surprises.
+      ■​ We are waterproofing specialists.
+            ●​ The last thing you need is a water problem or a leak in a new
+                bathroom or bathroom renovation yet more than 23% of
+                renovated or new bathrooms develop a water issue within 2
+                years. The Shower Dr uses only world leading Mapei products
+                and we guarantee our work for 10 years which is nearly 4
+                years longer than the QBCC requirements. We can confidently
+                offer this guarantee due to the proven record of Mapei sealants
+                and epoxy.
+      ■​ Benefits of Bathroom Renovation
+            ●​ Additional benefits of upgrading your property or renovating
+                your bathroom with Capital Bathrooms include:
+                     ○​ Adding value to your property
+                     ○​ Improving your lifestyle at home
+                     ○​ Removing the risk factor of DIY
+                     ○​ Save money & time
+                     ○​ Greater options for sustainability & style
+                     ○​ Access to local design innovations
+                     ○​ Quality assurance and a warranty promise
+○​ FAQs
+      ■​ What areas do you service?
+      ■​ How much does a bathroom renovation cost?
+            ●​ Costs vary based on project specifics. We provide
+                complimentary quotes after consultation. Need help with
+            figuring out the cost of your renovation? Book your free
+            consultation now.
+■​   How much does a full bathroom renovation cost?
+        ●​ To answer this question accurately we always recommend
+            completing a complimentary onsite inspection and having an
+            initial consultation with you to gain a better understanding of
+            what you are looking for. At Capital Bathrooms we offer a
+            range of bathrooms to suit all budgets. The size of the
+            bathroom and the bathware selections you make all have an
+            impact on your final quotation.
+■​   How much does it cost to renovate your bathroom in Brisbane in
+     2026?
+        ●​ Bathroom renovation costs in Brisbane can vary significantly
+            depending on factors such as the current condition of your
+            bathroom, property access, and whether any structural work is
+            required. Your choice of tiles, flooring, tapware, and the size of
+            the bathroom also impact the final cost. As a guide, a standard
+            bathroom renovation in Brisbane in 2025–2026 typically
+            ranges from $22,500 to $29,000 (incl. GST), covering all
+            materials and labour. We strongly recommend booking a free
+            on-site inspection and quote to get an accurate estimate for
+            your project. Get your smart bathroom renovation quote now .
+■​   What is a reasonable budget for a bathroom remodel?
+        ●​ Bathroom renovations on the Sunshine Coast will depend on a
+            number of factors including your choice of materials and
+            material suppliers, finishes, service providers costs, demolition
+            needs, and more.
+        ●​ For simple, basic bathroom renovations that are limited to paint
+            jobs and new tiles–some clients have managed to keep their
+            budgets below $6K AUD. Other customers will be interested in
+            sourcing all new appliances, finishes, tiles and woods, and
+            more. For these clients, you can expect to spend upward of
+            $40K AUD to completely renovate a bathroom.
+        ●​ On average, we suspect that most bathroom remodels will fall
+            somewhere in the middle of these two extremes. Budgeting
+            approximately $20K AUD for a bathroom renovation seems
+            reasonable when you know where you are willing to spend and
+            where you want to save costs.
+■​   How soon can you start and how long does it take?
+        ●​ Our bathroom renovations usually within a short timeframe
+            after consultation - we clearly communicate project schedules.
+            Generally a bathroom reno takes from 2-4 weeks depending
+            on size & complexity.
+■​   How long will my renovation take?
+        ●​ A standard size full bathroom renovation will usually take about
+            3 to 5 weeks depending on the finished required and structural
+            elements needed. This is primarily due to the strict drying
+            times needed to comply with Australian Standards and the
+              ordering of custom products. We know how keen you’ll be to
+              have your brand new bathroom ready to use, but please keep
+              in mind you can’t always rush a good thing. When we present
+              you with our fixed price proposal we’ll also include an
+              estimated timeline of how long your bathroom renovation will
+              take.
+■​   How long does it take to renovate an average size bathroom from start
+     to finish?
+          ●​ On average, a standard bathroom renovation takes about 3–4
+              weeks from demolition to completion, depending on the
+              complexity of the work and material availability. If you’re on a
+              tight schedule, no problem — just talk to us. We’ll do our best
+              to fast-track the project where possible.
+■​   How long does a bathroom renovation take?
+          ●​ This will depend on the scope of your entire project. Where
+              some clients simply want to redo the bathroom floors, others
+              are interested in a full demolition and remodel.
+          ●​ If you’re booking in simple services such as tiling only, we
+              suspect your project will be finished top to end in less than a
+              week. If you’re planning for an entire gut out and refinish,
+              expect to wait at least one month (upwards of two!) for all
+              service work, deliveries, and installation to be complete.
+■​   What is your warranty?
+■​   Do you offer a warranty?
+          ●​ We are proud of the quality of the products and services that
+              we offer. At Capital Bathrooms we only use quality
+              tradespeople that have been tried and tested and all of our
+              trades are hand-picked because of their commitment to
+              delivering excellence in alignment with our values. By choosing
+              us, you will receive a 6-year warranty on all Capital Bathrooms’
+              workmanship PLUS the standard manufacturer’s guarantee on
+              all fixtures, fittings and materials used in your renovation. We
+              also provide a 6-year waterproofing guarantee for labour and
+              materials per the manufacturer specifications.
+■​   For more details on our warranty inclusions and conditions – visit our
+     Warranty Page.
+■​   Warranty
+          ●​ When you choose Kuda Bathrooms to renovate or makeover
+              your bathroom you have the security and peace-of-mind
+              knowing that we are fully insured and qualified medium rise
+              registered builders.
+          ●​ We have 20+ years experience in all kinds of bathroom
+              renovations and all of our work is fully guaranteed. We'll still
+              be around should you ever have a problem and we even
+              extend your normal 6.25 year QBCC Builders’ home warranty
+              period to a full 7 years.
+          ●​ Waterproofing, adhesives and grouts are guaranteed for 7
+              years.
+        ●​ Our workmanship is guaranteed for 7 years.
+        ●​ The waterproof integrity of the work is guaranteed for 7 years.
+        ●​ Shower Screens supplied by Kuda Bathrooms are guaranteed
+            for the manufacturer’s warranty period.
+        ●​ All products, fittings and fixtures supplied by Kuda Bathrooms
+            are guaranteed for the manufacturer’s warranty period.
+        ●​ All warranties and guarantees are subject to the QBCC normal
+            terms and conditions.
+■​   Can you help with bathroom design?
+        ●​ Absolutely. We offer design consultations to help you select the
+            best layout, fittings, and finishes to suit your style and budget.
+■​   Can I supply my own fixtures and fittings?
+        ●​ Yes, you’re welcome to supply your own fixtures and fittings.
+            We can also source quality products through our trusted
+            suppliers if you prefer. Want to go shopping together, no
+            problem.
+■​   Can I choose my own fixtures and tiles?
+        ●​ Absolutely! You can supply your own, or we can help source
+            quality fixtures and finishes to suit your style and budget.
+■​   Do I need council approval for my renovation?
+        ●​ In most cases, no. But if your renovation includes major
+            structural changes, we’ll guide you through the approval
+            process if necessary.
+■​   Do I need council approval for a bathroom renovation?
+        ●​ In most cases, standard bathroom renovations don’t require
+            council approval unless you are making structural changes or
+            altering plumbing significantly. We can advise you during the
+            consultation stage.
+■​   Are your quotes fixed-price?
+        ●​ Yes — we provide fixed, transparent quotes so there are no
+            surprises down the line.
+■​   Do you need to inspect the property to provide a quote?
+        ●​ Your initial consultation and inspection is very important. We
+            want to better understand your bathroom renovation needs
+            and ensure we can offer you the perfect design and
+            construction solution.
+■​   Do you outsource any of your work?
+        ●​ At Capital Bathrooms we have a team of inhouse licensed and
+            highly qualified builders, plumbers, and electricians available to
+            deliver your bathroom renovation. We utilise a purposely
+            selected professionals to support us with services like
+            cabinetry and glass installation. At Capital Bathrooms we only
+            use trusted providers who share our passion for quality
+            construction and customer satisfaction.
+■​   Are you fully insured and appropriately licensed?
+        ●​ We are fully insured for all the work we undertake and are
+            happy to provide you evidence that our insurance is current
+            and up to date. Our QBCC License Number is QBCC
+             15117078. Capital Bathrooms is here to offer you the peace of
+             mind that you are working with a trusted and professional
+             business. It is always important to check the credentials and
+             the licenses of any trade or building contractor before you
+             accept their quote.
+■​   How do you minimise the dust and mess created by the renovation
+     work?
+        ●​ Our team are dedicated to working in a clean environment and
+             aim to leave your home in a clean and tidy state at the end of
+             each working day. We make appropriate use of protective drop
+             sheets and plastic sheeting to minimise any dust or
+             construction product effecting your home.Should a job require
+             additional measures, Capital Bathrooms can utilise additional
+             plastic sheeting protection or industrial extraction fans to
+             collect dust effectively. These requirements can all be
+             discussed prior to starting your renovation project.
+■​   What if my bathroom has asbestos? Can you help?
+        ●​ Yes - if we identify asbestos during the strip-out, we can
+             arrange for safe removal through licensed asbestos
+             professionals. It’s quite common in older Brisbane homes,
+             especially in bathroom wall sheeting and under floor tiles. We
+             always strip bathrooms back to the timber studs to check for
+             any hidden issues, including asbestos. If asbestos is found, we
+             will discuss options with you before proceeding — your safety
+             and compliance with regulations is always our priority.
+■​   Can you renovate other rooms, like my laundry?
+        ●​ Absolutely, we offer a range of other services, including
+             laundry renovations or property maintenance. While we
+             consider ourselves to be bathroom specialists, we have a fully
+             qualified and licensed team available to take on any general
+             building work you may request. Our team includes all trades.
+■​   What tiling is included in my package?
+        ●​ As part of our all-inclusive packages, standard supply and
+             installation of tiling and grout is included. Specific inclusions
+             are as per the below outline:
+        ●​ SQUARE METERAGE RATE: For the Essentials, Plus and
+             Premier Packages the Provisional Cost (PC) Sum for tiling is
+             set at up to $39.95 per square meter. If the actual cost of the
+             selected tiles is less than the allocated PC Sum, no credit or
+             refund will be provided for the difference. Please note that our
+             wholesale costs differ from the recommended retail PC Sum at
+             our nominated tile providers and may not reflect any actual
+             pricing adjustments.
+        ●​ TILE SUPPLIER: Our preferred supplier is National Tiles.
+             Other providers i.e Beaumont Tiles, Gold Coast Tile Mart and
+             The Tile Collective can be considered upon application.
+     ●​ STANDARD TILE SIZE: Included tile sizes for walls and
+         flooring are 300×600, 450×450. Additional costs apply for tiles
+         outside these dimensions i.e 600×600 or subway 100×300.
+     ●​ TILE GROUT: We currently utilise grout from National Tiles.
+         Some optional colours are available – see Mapei colour chart.
+         Depending on colour selected, additional costs may apply.
+     ●​ STANDARD LAYING PATTERN: All three packages include a
+         standard laying pattern of Vertical Stack Straight, Grid and
+         Linear Brick / Horizontal Stack – See Tile Laying Pattern Blog
+         for an example. All other laying patterns including Herringbone,
+         Hexagon, Brick bond will attract additional costs due to
+         increased labour and tile cutting / margin requirements.
+     ●​ TILE HEIGHT: The tile height inclusion varies for each
+         package. Refer to the current Package Guide for an example
+         of each package inclusion. Further information is also included
+         here.
+     ●​ Essentials tile layout includes: • Tile skirt to perimeter of room
+         200mm high • Half wall tiles behind bath up to 1200mm high •
+         Shower wall tiles up to 2100mm high • Floor tiles • If
+         applicable, separate toilet rooms include a tile skirt to
+         perimeter of room 200mm high and floor tiles.
+     ●​ Plus+ tile layout includes: • Half wall tile to bathroom perimeter
+         up to 1200mm high • Feature tile to shower niche (300mm x
+         600mm) • Floor tiles • Shower wall tiles up to 2100mm high • If
+         applicable, separate toilet rooms include a tile skirt to
+         perimeter of room 200mm high and floor tiles.
+     ●​ Premier tile layout includes: • Full wall tiles to perimeter of
+         bathroom (up to 2700mm high) • Feature tile to one wall •
+         Feature tile to shower niche (300mm x 600mm) • Floor tiles • If
+         applicable, separate toilet rooms include a tile skirt to
+         perimeter of room 200mm high and floor tiles.
+     ●​ NICHE TILE: The Plus+ and Premier packages include
+         1x300x600 niche and feature tile. Subject to in-wall structures
+         allowing this to be installed.
+     ●​ FEATURE WALL: The Premier package includes 1 x Feature
+         Wall with a standard laying pattern (Vertical Stack Straight,
+         Grid and Linear Brick / Horizontal Stack). Tile size options for
+         feature wall: 300×600, 450×450 or 100×300.
+     ●​ All other inclusions, tile sizes or laying patterns will incur
+         additional costing. All additional pricing is POA.
+     ●​ *Tile inclusions are subject to change from time to time, for any
+         updates, contact our team.
+■​ What will be included in your standard bathroom renovation?
+     ●​ When comparing quotes from different builders, it’s important
+         to ensure you’re truly comparing “apples with apples.” A
+         complete bathroom renovation is a detailed process that
+         requires careful planning and precision. The cost of repairs if
+            something is overlooked can be significant, so take your time
+            and choose your Brisbane bathroom renovators wisely.
+       ●​ Our Standard Inclusions:
+               ○​ Preparation & Demolition
+                       ■​ Strip out and remove vanity, shower screens,
+                           shower base, bath and bath frame, wall tiles
+                           (where required)
+                       ■​ Remove floor tiles (where required)
+                       ■​ Full removal of wall sheeting down to the timber
+                           studs to check for hidden damage or rot — a
+                           critical step many builders skip. We make this a
+                           standard part of every renovation to ensure your
+                           bathroom is built on a sound structure for
+                           long-lasting quality.
+               ○​ Structural & Waterproofing
+                       ■​ Install new noggins and supports for sheeting
+                       ■​ Re-sheet as required with high-quality
+                           Villa-board (impact and water-resistant)
+                       ■​ Build new bath frame and fit new bath (if
+                           applicable)
+                       ■​ Apply polyurethane waterproofing membrane to
+                           floor area and 100mm up walls
+                       ■​ Apply acrylic waterproofing to shower walls in
+                           compliance with Australian Standard
+                           AS3740-2004
+               ○​ Tiling
+                       ■​ Standard wall tiling to 2.1m height
+                       ■​ Skirting tiles
+                       ■​ One row of splashback tiles between vanity and
+                           walls
+               ○​ Fixtures & Fittings
+                       ■​ Fit new towel rail, soap/bottle shelf, mirror, and
+                           all tapware
+                       ■​ Supply and fit new prefabricated vanity
+                       ■​ Supply and fit new clear, custom-made framed
+                           shower screen (frameless option available)
+                       ■​ Supply and install new bathtub (if applicable)
+               ○​ Plumbing & Electrical
+                       ■​ Full plumbing and drainage work
+                       ■​ Electrical work as required
+               ○​ Finishing Touches
+                       ■​ Internal painting (walls and ceiling)
+                       ■​ Final professional clean of the bathroom
+                       ■​ Complete rubbish removal (100%)
+■​ Inclusions - Great Visual -
+   https://tradeproinstallations.com.au/fixed-price-bathroom-renovations/
+

@@ -1,0 +1,724 @@
+<!DOCTYPE html>
+<html lang="en-AU">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bathroom Renovations Brisbane | Brisbane Bathroom Waterproofing</title>
+  <meta name="description" content="Full bathroom renovations delivered by Brisbane's waterproofing specialists. Fixed-price quotes, QBCC licensed, 7-year warranty. Servicing Brisbane, Gold Coast & Sunshine Coast.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Jost:wght@400;500;600;700;800&family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <!-- ============ PREVIEW LOGIN WALL ============ -->
+  <div id="login-wall" style="
+    position:fixed;inset:0;z-index:99999;
+    background:#343D50;
+    display:flex;align-items:center;justify-content:center;
+    font-family:'Roboto',sans-serif;
+  ">
+    <div style="
+      background:#fff;border-radius:8px;padding:40px 36px;
+      width:100%;max-width:380px;box-shadow:0 8px 32px rgba(0,0,0,.25);
+      text-align:center;
+    ">
+      <p style="margin:0 0 6px;font-size:11px;letter-spacing:.1em;text-transform:uppercase;color:#6D996D;font-weight:600;">Client Preview</p>
+      <h2 style="margin:0 0 24px;font-size:22px;color:#343D50;font-weight:700;">Brisbane Bathroom Waterproofing</h2>
+      <div id="login-error" style="display:none;color:#c0392b;font-size:13px;margin-bottom:12px;">Incorrect username or password.</div>
+      <input id="lw-user" type="text" placeholder="Username" autocomplete="username" style="
+        width:100%;box-sizing:border-box;padding:11px 14px;
+        border:1.5px solid #ddd;border-radius:5px;font-size:15px;
+        margin-bottom:10px;outline:none;
+      ">
+      <input id="lw-pass" type="password" placeholder="Password" autocomplete="current-password" style="
+        width:100%;box-sizing:border-box;padding:11px 14px;
+        border:1.5px solid #ddd;border-radius:5px;font-size:15px;
+        margin-bottom:18px;outline:none;
+      ">
+      <button onclick="lwSubmit()" style="
+        width:100%;padding:13px;background:#7FDA54;border:none;
+        border-radius:5px;font-size:15px;font-weight:700;
+        color:#343D50;cursor:pointer;letter-spacing:.03em;
+      ">View Page</button>
+    </div>
+  </div>
+
+  <script>
+    (function(){
+      if(sessionStorage.getItem('lw_auth')==='1'){
+        document.getElementById('login-wall').style.display='none';
+      }
+      document.getElementById('lw-pass').addEventListener('keydown',function(e){
+        if(e.key==='Enter') lwSubmit();
+      });
+    })();
+    function lwSubmit(){
+      var u=document.getElementById('lw-user').value.trim();
+      var p=document.getElementById('lw-pass').value;
+      if(u==='Mitch'&&p==='BrisbaneBathroomWaterproofing'){
+        sessionStorage.setItem('lw_auth','1');
+        document.getElementById('login-wall').style.display='none';
+      } else {
+        document.getElementById('login-error').style.display='block';
+      }
+    }
+  </script>
+
+  <!-- ============ HEADER ============ -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="#" class="brand-logo" aria-label="Brisbane Bathroom Waterproofing">
+        <img src="images/logo.jpg" alt="Brisbane Bathroom Waterproofing" class="logo-img">
+      </a>
+      <div class="header-right">
+        <a href="tel:0452445992" class="header-phone">
+          <span class="header-phone-label">Call for a free quote</span>
+          <span class="header-phone-number">0452 445 992</span>
+        </a>
+        <a href="#quote-form" class="btn btn-accent btn-sm">Get a Quote</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- ============ 1. HERO + LEAD FORM ============ -->
+  <section class="hero" id="quote">
+    <div class="hero-bg" role="img" aria-label="Completed modern bathroom renovation"></div>
+    <div class="hero-overlay"></div>
+    <div class="container hero-grid">
+      <div class="hero-copy reveal">
+        <div class="hero-rating">
+          <span class="stars" aria-label="Rated 5 out of 5 stars">★★★★★</span>
+          <span class="rating-text">Rated 5 stars by Brisbane homeowners on Google</span>
+        </div>
+        <ul class="hero-signals">
+          <li><strong>QBCC Licensed</strong><span>#15296743</span></li>
+          <li><strong>7-Year Warranty</strong><span>On leaks &amp; structure</span></li>
+          <li><strong>Fixed-Price Quotes</strong><span>No surprises</span></li>
+        </ul>
+        <h1>Brisbane Bathroom Renovations</h1>
+        <p class="hero-subhead">
+          Full bathroom renovations delivered by Brisbane's waterproofing specialists.
+          From demolition to waterproofing, tiling and fit-off, we help homeowners and
+          investors renovate with confidence.
+        </p>
+
+        <!-- Google reviews auto-scroll carousel.
+             PLACEHOLDER: two cards reuse BBWP's real public Google reviews; the rest are samples.
+             Before launch, connect BBWP's live Google reviews feed / embed their existing widget. -->
+        <div class="hero-reviews">
+          <div class="reviews-marquee">
+            <div class="reviews-track">
+              <article class="g-review">
+                <header><span class="g-mark">G</span><div><strong>Clayton Ashmead</strong><span class="g-when">Google review</span></div></header>
+                <span class="stars" aria-label="5 stars">★★★★★</span>
+                <p>"Tim and the guys did a fantastic job. They were accommodating with dates and completed the waterproofing..."</p>
+              </article>
+              <article class="g-review">
+                <header><span class="g-mark">G</span><div><strong>matt barnes</strong><span class="g-when">Google review</span></div></header>
+                <span class="stars" aria-label="5 stars">★★★★★</span>
+                <p>"Mitch, Sam &amp; the whole team were fantastic to deal with and provided an excellent service. Can't..."</p>
+              </article>
+              <article class="g-review">
+                <header><span class="g-mark">G</span><div><strong>Customer name</strong><span class="g-when">Google review</span></div></header>
+                <span class="stars" aria-label="5 stars">★★★★★</span>
+                <p>"[Sample review - replace with a real Google review about your renovation experience.]"</p>
+              </article>
+              <article class="g-review">
+                <header><span class="g-mark">G</span><div><strong>Customer name</strong><span class="g-when">Google review</span></div></header>
+                <span class="stars" aria-label="5 stars">★★★★★</span>
+                <p>"[Sample review - replace with a real Google review about communication and workmanship.]"</p>
+              </article>
+              <!-- duplicate set for seamless loop -->
+              <article class="g-review" aria-hidden="true">
+                <header><span class="g-mark">G</span><div><strong>Clayton Ashmead</strong><span class="g-when">Google review</span></div></header>
+                <span class="stars" aria-label="5 stars">★★★★★</span>
+                <p>"Tim and the guys did a fantastic job. They were accommodating with dates and completed the waterproofing..."</p>
+              </article>
+              <article class="g-review" aria-hidden="true">
+                <header><span class="g-mark">G</span><div><strong>matt barnes</strong><span class="g-when">Google review</span></div></header>
+                <span class="stars" aria-label="5 stars">★★★★★</span>
+                <p>"Mitch, Sam &amp; the whole team were fantastic to deal with and provided an excellent service. Can't..."</p>
+              </article>
+              <article class="g-review" aria-hidden="true">
+                <header><span class="g-mark">G</span><div><strong>Customer name</strong><span class="g-when">Google review</span></div></header>
+                <span class="stars" aria-label="5 stars">★★★★★</span>
+                <p>"[Sample review - replace with a real Google review about your renovation experience.]"</p>
+              </article>
+              <article class="g-review" aria-hidden="true">
+                <header><span class="g-mark">G</span><div><strong>Customer name</strong><span class="g-when">Google review</span></div></header>
+                <span class="stars" aria-label="5 stars">★★★★★</span>
+                <p>"[Sample review - replace with a real Google review about communication and workmanship.]"</p>
+              </article>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero-form-card reveal" id="quote-form">
+        <h2 class="form-title">Get Your Free Renovation Quote</h2>
+        <p class="form-sub">Fixed-price quotes. No obligation.</p>
+        <form class="quote-form" name="renovation-quote" onsubmit="return handleQuoteSubmit(event)">
+          <div class="field">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" required autocomplete="name">
+          </div>
+          <div class="field-row">
+            <div class="field">
+              <label for="phone">Phone</label>
+              <input type="tel" id="phone" name="phone" required autocomplete="tel">
+            </div>
+            <div class="field">
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" required autocomplete="email">
+            </div>
+          </div>
+          <div class="field-row">
+            <div class="field">
+              <label for="suburb">Suburb</label>
+              <input type="text" id="suburb" name="suburb" required>
+            </div>
+            <div class="field">
+              <label for="reno-type">Renovation type</label>
+              <select id="reno-type" name="reno-type" required>
+                <option value="" disabled selected>Select...</option>
+                <option>Main bathroom</option>
+                <option>Ensuite</option>
+                <option>Powder room</option>
+                <option>Apartment / unit bathroom</option>
+                <option>Bathroom + laundry</option>
+                <option>Accessibility / ageing-in-place</option>
+                <option>Investor / pre-sale</option>
+                <option>Not sure yet</option>
+              </select>
+            </div>
+          </div>
+          <div class="field">
+            <label for="timeframe">Desired timeframe</label>
+            <select id="timeframe" name="timeframe" required>
+              <option value="" disabled selected>Select...</option>
+              <option>As soon as possible</option>
+              <option>Within 1 month</option>
+              <option>1-3 months</option>
+              <option>3+ months</option>
+              <option>Just researching</option>
+            </select>
+          </div>
+          <div class="field">
+            <label for="details">Brief project details</label>
+            <textarea id="details" name="details" rows="3" placeholder="Tell us a little about your bathroom and what you'd like to achieve."></textarea>
+          </div>
+          <button type="submit" class="btn btn-accent btn-block">Get My Renovation Quote</button>
+          <p class="form-note">You can upload photos after submitting for a faster estimate.</p>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ 2. PARTNER / CERT LOGO SCROLLER (replaces proof bar) ============ -->
+  <section class="logo-scroller">
+    <div class="container">
+      <p class="logo-scroller-label">Licensed, certified &amp; partnered with</p>
+    </div>
+    <div class="logo-marquee">
+      <div class="logo-track">
+        <!-- set 1 -->
+        <span class="logo-chip"><img src="images/logos/qbcc.svg" alt="QBCC"></span>
+        <span class="logo-chip"><img src="images/logos/form43.png" alt="Form 43 Certification"></span>
+        <span class="logo-chip"><img src="images/logos/master-builders.png" alt="Master Builders Queensland"></span>
+        <span class="logo-chip"><img src="images/logos/aiw.png" alt="Australian Institute of Waterproofing"></span>
+        <span class="logo-chip"><img src="images/logos/beaumont.jpg" alt="Beaumont Tiles"></span>
+        <span class="logo-chip"><img src="images/logos/national-tiles.png" alt="National Tiles"></span>
+        <span class="logo-chip"><img src="images/logos/highgrove.png" alt="Highgrove Bathrooms"></span>
+        <span class="logo-chip"><img src="images/logos/reece.png" alt="Reece"></span>
+        <span class="logo-chip"><img src="images/logos/crommelin.webp" alt="Crommelin Waterproofing"></span>
+        <!-- set 2 (duplicate for seamless loop) -->
+        <span class="logo-chip" aria-hidden="true"><img src="images/logos/qbcc.svg" alt=""></span>
+        <span class="logo-chip" aria-hidden="true"><img src="images/logos/form43.png" alt=""></span>
+        <span class="logo-chip" aria-hidden="true"><img src="images/logos/master-builders.png" alt=""></span>
+        <span class="logo-chip" aria-hidden="true"><img src="images/logos/aiw.png" alt=""></span>
+        <span class="logo-chip" aria-hidden="true"><img src="images/logos/beaumont.jpg" alt=""></span>
+        <span class="logo-chip" aria-hidden="true"><img src="images/logos/national-tiles.png" alt=""></span>
+        <span class="logo-chip" aria-hidden="true"><img src="images/logos/highgrove.png" alt=""></span>
+        <span class="logo-chip" aria-hidden="true"><img src="images/logos/reece.png" alt=""></span>
+        <span class="logo-chip" aria-hidden="true"><img src="images/logos/crommelin.webp" alt=""></span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ 3. POINT OF DIFFERENCE + BEFORE/AFTER SLIDER ============ -->
+  <section class="section section-difference">
+    <div class="container">
+      <div class="difference-layout">
+        <div class="difference-copy reveal">
+          <span class="eyebrow">Why renovate with Brisbane's waterproofing experts?</span>
+          <h2>A renovation should look great and be built to last behind the tiles.</h2>
+          <p class="lead">
+            Most renovators can talk about style. We start with what actually keeps a bathroom
+            sound for the long term: the waterproofing. It is the part most likely to cost you
+            later if it is rushed, and it is exactly what we have specialised in for years.
+          </p>
+          <ul class="diff-points">
+            <li>
+              <span class="diff-icon" aria-hidden="true">◆</span>
+              <div><strong>Beautiful isn't enough.</strong> A bathroom can look perfect and still fail if what's behind the tiles is done poorly.</div>
+            </li>
+            <li>
+              <span class="diff-icon" aria-hidden="true">◆</span>
+              <div><strong>Waterproofing is the foundation.</strong> We strip back to the studs and waterproof to Australian Standard AS3740 on every job.</div>
+            </li>
+            <li>
+              <span class="diff-icon" aria-hidden="true">◆</span>
+              <div><strong>Done once. Done right.</strong> One accountable team from wet-area prep through to final fit-off, backed by a 7-year warranty.</div>
+            </li>
+          </ul>
+          <a href="#quote-form" class="btn btn-accent">Get My Renovation Quote</a>
+        </div>
+        <div class="ba-wrap reveal">
+          <!-- Client-supplied before/after photos -->
+          <div class="ba-slider" id="baSlider">
+            <img src="images/after.jpg" alt="Renovated bathroom" class="ba-after">
+            <div class="ba-before-wrap">
+              <img src="images/before.jpg" alt="Bathroom before renovation" class="ba-before">
+              <span class="ba-tag ba-tag-before">Before</span>
+            </div>
+            <span class="ba-tag ba-tag-after">After</span>
+            <div class="ba-handle" id="baHandle">
+              <span class="ba-handle-line"></span>
+              <span class="ba-handle-grip">‹ ›</span>
+            </div>
+          </div>
+          <p class="ba-caption">Drag to reveal the transformation</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ 4. RENOVATION SERVICES (image cards) ============ -->
+  <section class="section section-services">
+    <div class="container">
+      <div class="section-head center reveal">
+        <span class="eyebrow">What we renovate</span>
+        <h2>Renovation services for every Brisbane home</h2>
+        <p class="section-intro">From a single ensuite refresh to a full strip-out and rebuild, we handle the whole job in-house with one accountable team.</p>
+      </div>
+      <div class="service-grid">
+        <article class="service-card reveal">
+          <div class="service-img" style="background-image:url('images/service-main.jpg')"></div>
+          <div class="service-body"><h3>Main Bathroom Renovations</h3><p>Complete transformations of your home's busiest wet area, built to last.</p></div>
+        </article>
+        <article class="service-card reveal">
+          <div class="service-img" style="background-image:url('images/service-ensuite.jpg')"></div>
+          <div class="service-body"><h3>Ensuite Renovations</h3><p>Private, hotel-feel ensuites with smart layouts and quality fixtures.</p></div>
+        </article>
+        <article class="service-card reveal">
+          <div class="service-img" style="background-image:url('images/service-powder.jpg')"></div>
+          <div class="service-body"><h3>Powder Room Renovations</h3><p>High-impact updates that lift the feel of your whole home.</p></div>
+        </article>
+        <article class="service-card reveal">
+          <div class="service-img" style="background-image:url('images/service-apartment.jpg')"></div>
+          <div class="service-body"><h3>Apartment &amp; Unit Bathrooms</h3><p>Access-aware renovations that work within strata and building rules.</p></div>
+        </article>
+        <article class="service-card reveal">
+          <div class="service-img" style="background-image:url('images/service-laundry.jpg')"></div>
+          <div class="service-body"><h3>Bathroom + Laundry Combos</h3><p>Make every square metre work harder with a combined wet-area rebuild.</p></div>
+        </article>
+        <article class="service-card reveal">
+          <div class="service-img" style="background-image:url('images/service-accessible.jpg')"></div>
+          <div class="service-body"><h3>Accessible &amp; Ageing-in-Place</h3><p>Safer, easy-access bathrooms with slip resistance and grab support.</p></div>
+        </article>
+        <article class="service-card reveal">
+          <div class="service-img" style="background-image:url('images/service-investor.jpg')"></div>
+          <div class="service-body"><h3>Investor &amp; Pre-Sale</h3><p>Value-adding renovations on time and on budget, ready for market.</p></div>
+        </article>
+        <article class="service-card service-card-cta reveal">
+          <div class="service-body">
+            <h3>Not sure where to start?</h3>
+            <p>Tell us about your space and we'll guide you through the options.</p>
+            <a href="#quote-form" class="btn btn-accent btn-sm">Get a Free Quote</a>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ 5. OUR PROCESS (interactive timeline) ============ -->
+  <section class="section section-process">
+    <div class="container">
+      <div class="section-head center reveal">
+        <span class="eyebrow">How it works</span>
+        <h2>A clear, guided process from enquiry to handover</h2>
+        <p class="section-intro">No guesswork, no surprises. Here's exactly how your renovation unfolds.</p>
+      </div>
+      <ol class="process-timeline" id="processTimeline">
+        <li class="process-step reveal">
+          <span class="step-num">1</span>
+          <h3>Initial Enquiry</h3>
+          <p>Tell us about your bathroom and your goals. We'll give you a ballpark from photos and measurements.</p>
+        </li>
+        <li class="process-step reveal">
+          <span class="step-num">2</span>
+          <h3>Site Visit &amp; Consultation</h3>
+          <p>We assess layout, access, waterproofing and scope on site, at no cost to you.</p>
+        </li>
+        <li class="process-step reveal">
+          <span class="step-num">3</span>
+          <h3>Fixed Quote &amp; Scope</h3>
+          <p>Clear inclusions, timeline and next steps in writing. A fixed price with no hidden extras.</p>
+        </li>
+        <li class="process-step reveal">
+          <span class="step-num">4</span>
+          <h3>Selections &amp; Scheduling</h3>
+          <p>Finalise fixtures, finishes and tiles with our suppliers, then lock in your start date.</p>
+        </li>
+        <li class="process-step reveal">
+          <span class="step-num">5</span>
+          <h3>Build &amp; Handover</h3>
+          <p>Demolition, waterproofing, renovation works and a final walkthrough. Done once, done right.</p>
+        </li>
+      </ol>
+      <div class="process-reassure reveal">
+        <span>Start within 2 weeks</span>
+        <span>Typical build 3-4 weeks</span>
+        <span>One accountable project manager</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ 6. WHAT'S INCLUDED (left buttons, right image + text) ============ -->
+  <section class="section section-included" id="included">
+    <div class="container">
+      <div class="section-head center reveal">
+        <span class="eyebrow">Compare apples with apples</span>
+        <h2>What's included in a standard bathroom renovation</h2>
+        <p class="section-intro">When you compare quotes, it pays to know exactly what you're getting. Click through each stage.</p>
+      </div>
+      <div class="included-layout reveal" id="includedLayout">
+        <div class="included-nav" role="tablist">
+          <button class="inc-btn active" data-inc="i1">Demolition &amp; Preparation</button>
+          <button class="inc-btn" data-inc="i2">Plumbing &amp; Electrical</button>
+          <button class="inc-btn" data-inc="i3">Sheeting &amp; Waterproofing</button>
+          <button class="inc-btn" data-inc="i4">Tiling &amp; Grouting</button>
+          <button class="inc-btn" data-inc="i5">Fixtures &amp; Fittings</button>
+          <button class="inc-btn" data-inc="i6">Finishing Touches</button>
+        </div>
+        <div class="included-display">
+          <div class="inc-panel active" id="i1">
+            <div class="inc-img" style="background-image:url('images/inc-demolition.jpg')"></div>
+            <div class="inc-text">
+              <h3>Demolition &amp; preparation</h3>
+              <ul>
+                <li>Strip out and remove vanity, shower screen, base, bath and tiles</li>
+                <li>Full removal of wall sheeting down to the timber studs</li>
+                <li>Inspection for hidden damage or rot, a critical step many builders skip</li>
+              </ul>
+            </div>
+          </div>
+          <div class="inc-panel" id="i2">
+            <div class="inc-img" style="background-image:url('images/inc-plumbing.jpg')"></div>
+            <div class="inc-text">
+              <h3>Plumbing &amp; electrical</h3>
+              <ul>
+                <li>Full plumbing and drainage work by licensed trades</li>
+                <li>Electrical work as required, including lighting and exhaust</li>
+                <li>Rough-in coordinated around your new layout</li>
+              </ul>
+            </div>
+          </div>
+          <div class="inc-panel" id="i3">
+            <div class="inc-img" style="background-image:url('images/inc-waterproofing.jpg')"></div>
+            <div class="inc-text">
+              <h3>Sheeting &amp; waterproofing</h3>
+              <ul>
+                <li>New noggins and supports, re-sheeted with water-resistant Villaboard</li>
+                <li>Polyurethane membrane to floor and 100mm up the walls</li>
+                <li>Waterproofing to Australian Standard AS3740, by specialists</li>
+              </ul>
+            </div>
+          </div>
+          <div class="inc-panel" id="i4">
+            <div class="inc-img" style="background-image:url('images/inc-tiling.jpg')"></div>
+            <div class="inc-text">
+              <h3>Tiling &amp; grouting</h3>
+              <ul>
+                <li>Wall tiling to 2.1m height with skirting tiles</li>
+                <li>Splashback tiling between vanity and walls</li>
+                <li>Quality tiles from Beaumont and National Tiles, or supply your own</li>
+              </ul>
+            </div>
+          </div>
+          <div class="inc-panel" id="i5">
+            <div class="inc-img" style="background-image:url('images/inc-fixtures.jpg')"></div>
+            <div class="inc-text">
+              <h3>Fixtures &amp; fittings</h3>
+              <ul>
+                <li>New vanity, tapware, towel rail, mirror and shelving</li>
+                <li>Custom-made framed shower screen, frameless available</li>
+                <li>Supply and install new bath where applicable</li>
+              </ul>
+            </div>
+          </div>
+          <div class="inc-panel" id="i6">
+            <div class="inc-img" style="background-image:url('images/inc-finishing.jpg')"></div>
+            <div class="inc-text">
+              <h3>Finishing touches</h3>
+              <ul>
+                <li>Internal painting of walls and ceiling</li>
+                <li>Final professional clean of the bathroom</li>
+                <li>Complete rubbish removal, we leave it ready to use</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ 7. COST GUIDANCE ============ -->
+  <section class="section section-cost" id="cost">
+    <div class="container">
+      <div class="section-head center reveal">
+        <span class="eyebrow">Planning your budget</span>
+        <h2>What is a reasonable budget for a bathroom renovation?</h2>
+      </div>
+      <div class="cost-layout">
+        <div class="cost-body reveal">
+          <p>
+            Bathroom renovation costs in Brisbane vary widely depending on the size, condition
+            and complexity of the project. As a general guide, many standard full renovations
+            sit somewhere in the low-to-high $20,000s, while simpler cosmetic upgrades may cost
+            less and larger or more customised renovations with premium finishes can exceed
+            $40,000.
+          </p>
+          <p>
+            Because every bathroom is different, we recommend a complimentary consultation and
+            on-site inspection before providing pricing. This lets us properly assess your
+            project and prepare a tailored fixed-price quote, giving you clarity and confidence
+            before any work begins.
+          </p>
+          <div class="cost-reassure">
+            <span>Fixed-price quotes</span>
+            <span>No hidden extras</span>
+            <span>Free on-site inspection</span>
+          </div>
+          <a href="#quote-form" class="btn btn-accent">Get a Tailored Renovation Quote</a>
+        </div>
+        <div class="cost-factors reveal" id="costFactors">
+          <h3>What affects your price</h3>
+          <p class="factors-hint">Tap a factor to see how it influences your quote.</p>
+          <div class="factor-chips">
+            <button class="factor-chip active" data-explain="Larger bathrooms mean more materials, tiling and labour, which lifts the overall cost.">Bathroom size</button>
+            <button class="factor-chip" data-explain="Moving the shower, bath, toilet or vanity means new plumbing and electrical rough-ins.">Layout changes</button>
+            <button class="factor-chip" data-explain="Unit and apartment work can involve lifts, parking, body-corporate rules and tighter access.">Apartment access</button>
+            <button class="factor-chip" data-explain="If asbestos is found during strip-out, we arrange safe, licensed removal before continuing.">Asbestos removal</button>
+            <button class="factor-chip" data-explain="Tiles, tapware and fixtures range from budget to premium, and your choices shape the price.">Tile &amp; fixture selections</button>
+            <button class="factor-chip" data-explain="Repairing rot, relocating walls or reframing adds structural work to the scope.">Structural work</button>
+            <button class="factor-chip" data-explain="Made-to-measure vanities and storage cost more than standard prefabricated units.">Custom cabinetry</button>
+            <button class="factor-chip" data-explain="Frameless screens and custom mirrors are a premium over standard framed options.">Glazing</button>
+          </div>
+          <div class="factor-explain" id="factorExplain">Larger bathrooms mean more materials, tiling and labour, which lifts the overall cost.</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ 8. DESIGN STYLES (infinite carousel) ============ -->
+  <section class="section section-styles">
+    <div class="container">
+      <div class="section-head center reveal">
+        <span class="eyebrow">Find your look</span>
+        <h2>What style suits your bathroom?</h2>
+        <p class="section-intro">Scroll through popular looks to find your inspiration, then we'll help bring it to life.</p>
+      </div>
+    </div>
+    <div class="styles-carousel" id="stylesCarousel">
+      <figure class="style-slide" data-caption="Modern Minimal"><img src="images/style-modern.jpg" alt="Modern minimal bathroom"><figcaption>Modern Minimal</figcaption></figure>
+      <figure class="style-slide" data-caption="Coastal Light"><img src="images/style-coastal.jpg" alt="Coastal light bathroom"><figcaption>Coastal Light</figcaption></figure>
+      <figure class="style-slide" data-caption="Classic Timeless"><img src="images/style-classic.jpg" alt="Classic timeless bathroom"><figcaption>Classic Timeless</figcaption></figure>
+      <figure class="style-slide" data-caption="Luxe Hotel"><img src="images/style-luxe.jpg" alt="Luxe hotel bathroom"><figcaption>Luxe Hotel</figcaption></figure>
+      <figure class="style-slide" data-caption="Practical Family"><img src="images/style-family.jpg" alt="Practical family bathroom"><figcaption>Practical Family</figcaption></figure>
+      <figure class="style-slide" data-caption="Traditional"><img src="images/style-traditional.jpg" alt="Traditional bathroom"><figcaption>Traditional</figcaption></figure>
+      <figure class="style-slide" data-caption="Accessible &amp; Easy-Clean"><img src="images/style-accessible.jpg" alt="Accessible easy-clean bathroom"><figcaption>Accessible &amp; Easy-Clean</figcaption></figure>
+    </div>
+    <div class="container center">
+      <div class="carousel-controls">
+        <button class="carousel-btn" id="stylePrev" aria-label="Previous">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M15 4 7 12l8 8" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </button>
+        <button class="carousel-btn" id="styleNext" aria-label="Next">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 4l8 8-8 8" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ 9. WHY CHOOSE US + stats ============ -->
+  <section class="section section-why">
+    <div class="container">
+      <div class="section-head center reveal">
+        <span class="eyebrow">Our authority</span>
+        <h2>Why choose Brisbane Bathroom Waterproofing</h2>
+      </div>
+
+      <div class="stats-row reveal" id="statsRow">
+        <div class="stat"><span class="stat-num" data-target="600" data-suffix="+">0</span><span class="stat-label">Bathrooms waterproofed</span></div>
+        <div class="stat"><span class="stat-num" data-target="7" data-suffix=" yr">0</span><span class="stat-label">Warranty on leaks &amp; structure</span></div>
+        <div class="stat"><span class="stat-num" data-target="10" data-suffix=" yr">0</span><span class="stat-label">Waterproofing product warranty</span></div>
+        <div class="stat"><span class="stat-num" data-target="3" data-suffix="">0</span><span class="stat-label">Trade licences held</span></div>
+      </div>
+
+      <div class="why-feature reveal">
+        <div class="why-img" style="background-image:url('images/why-feature.jpg')"></div>
+        <ul class="why-list">
+          <li>Waterproofing specialists, not just surface-level renovators</li>
+          <li>QBCC licensed &amp; insured (#15296743)</li>
+          <li>Kitchen &amp; Bathroom Builders, Carpentry and Waterproofing licences</li>
+          <li>Fixed-price quoting with no hidden extras</li>
+          <li>Premium, low-VOC products</li>
+          <li>7-year warranty on workmanship and leaks</li>
+          <li>One accountable project manager and team, start to finish</li>
+          <li>Servicing Brisbane, Gold Coast &amp; Sunshine Coast</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ 10. REVIEWS (stars + photos) ============ -->
+  <section class="section section-reviews">
+    <div class="container">
+      <div class="section-head center reveal">
+        <span class="eyebrow">What our customers say</span>
+        <h2>More of why our customers love our work</h2>
+        <p class="section-intro">Real reviews from real renovations across South East Queensland.</p>
+      </div>
+      <!-- PLACEHOLDER REVIEWS - replace text + photos with real client-supplied Google reviews before launch. -->
+      <div class="reviews-grid">
+        <blockquote class="review-card review-feature reveal">
+          <span class="stars" aria-label="5 stars">★★★★★</span>
+          <p>[PLACEHOLDER - feature renovation review. Use the existing testimonial describing a full demolition and renovation: carpentry, plumbing, tiling, glass shower screen, vanity, lighting and paint.]</p>
+          <footer class="review-author">
+            <img src="images/review1.jpg" alt="" class="review-avatar">
+            <span><strong>Customer name</strong><br>Suburb, Brisbane</span>
+            <span class="google-chip">via Google</span>
+          </footer>
+        </blockquote>
+        <blockquote class="review-card reveal">
+          <span class="stars" aria-label="5 stars">★★★★★</span>
+          <p>[PLACEHOLDER - short review focused on communication.]</p>
+          <footer class="review-author">
+            <img src="images/review2.jpg" alt="" class="review-avatar">
+            <span><strong>Customer name</strong><br>Suburb</span>
+          </footer>
+        </blockquote>
+        <blockquote class="review-card reveal">
+          <span class="stars" aria-label="5 stars">★★★★★</span>
+          <p>[PLACEHOLDER - short review focused on workmanship.]</p>
+          <footer class="review-author">
+            <img src="images/review3.jpg" alt="" class="review-avatar">
+            <span><strong>Customer name</strong><br>Suburb</span>
+          </footer>
+        </blockquote>
+        <blockquote class="review-card reveal">
+          <span class="stars" aria-label="5 stars">★★★★★</span>
+          <p>[PLACEHOLDER - short review focused on being easy to deal with.]</p>
+          <footer class="review-author">
+            <img src="images/review4.jpg" alt="" class="review-avatar">
+            <span><strong>Customer name</strong><br>Suburb</span>
+          </footer>
+        </blockquote>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ 11. FAQs ============ -->
+  <section class="section section-faq">
+    <div class="container narrow">
+      <div class="section-head center reveal">
+        <span class="eyebrow">Good to know</span>
+        <h2>Frequently asked questions</h2>
+      </div>
+      <div class="faq-list reveal">
+        <details class="faq-item">
+          <summary>How much does a bathroom renovation cost in Brisbane?</summary>
+          <div class="faq-answer"><p>It varies with size, condition and complexity. As a general guide, many standard full renovations sit in the low-to-high $20,000s, with simpler upgrades costing less and premium or larger projects exceeding $40,000. Because every bathroom is different, we provide a tailored fixed-price quote after a free on-site inspection.</p></div>
+        </details>
+        <details class="faq-item">
+          <summary>How long does a bathroom renovation take?</summary>
+          <div class="faq-answer"><p>A standard full bathroom renovation usually takes around 3 to 4 weeks, depending on size, complexity and the drying times required to comply with Australian Standards. We can typically start within two weeks of confirming your quote.</p></div>
+        </details>
+        <details class="faq-item">
+          <summary>Do you provide fixed quotes?</summary>
+          <div class="faq-answer"><p>Yes. We provide fixed, transparent quotes so there are no surprises. The main thing that can change a price is water-related damage discovered during strip-out, which we always discuss with you before proceeding.</p></div>
+        </details>
+        <details class="faq-item">
+          <summary>Do you help with design and selections?</summary>
+          <div class="faq-answer"><p>Yes. We help with layout planning and provide floor plans to guide your project. We'll work with you on fixtures and finishes to suit your style and budget.</p></div>
+        </details>
+        <details class="faq-item">
+          <summary>Can I supply my own fixtures and tiles?</summary>
+          <div class="faq-answer"><p>Absolutely, we simply adjust the quote accordingly. If you'd prefer, we can source quality products through our trusted suppliers, including Beaumont and National Tiles for tiling and Highgrove and Reece for fixtures.</p></div>
+        </details>
+        <details class="faq-item">
+          <summary>Do you handle waterproofing in-house?</summary>
+          <div class="faq-answer"><p>Yes. Waterproofing is our specialty and it's carried out in-house, in compliance with Australian Standard AS3740. It's the reason homeowners trust us to renovate as well as repair.</p></div>
+        </details>
+        <details class="faq-item">
+          <summary>What warranty do you provide?</summary>
+          <div class="faq-answer"><p>A standard construction warranty of 12 months on minor defects, 7 years on leaks and structural defects, and 10 years on the waterproofing product we use.</p></div>
+        </details>
+        <details class="faq-item">
+          <summary>Do I need council approval?</summary>
+          <div class="faq-answer"><p>In most cases, standard bathroom renovations don't require council approval. If your project involves major structural changes or significant plumbing alterations, we'll guide you through the process during the consultation stage.</p></div>
+        </details>
+        <details class="faq-item">
+          <summary>Can you renovate apartment bathrooms?</summary>
+          <div class="faq-answer"><p>Yes. We renovate apartment and unit bathrooms and account for access requirements as part of the quote and scheduling.</p></div>
+        </details>
+        <details class="faq-item">
+          <summary>What happens if asbestos is found?</summary>
+          <div class="faq-answer"><p>We strip bathrooms back to the timber studs to check for hidden issues, including asbestos, which is common in older Brisbane homes. If it's found, we arrange safe removal through licensed asbestos professionals and discuss options with you before proceeding. Your safety and compliance always come first.</p></div>
+        </details>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ 12. FINAL CTA ============ -->
+  <section class="section section-final-cta" id="enquire">
+    <div class="container narrow center reveal">
+      <h2>Ready to renovate your bathroom?</h2>
+      <p class="final-cta-sub">
+        Get a tailored, fixed-price quote from Brisbane's bathroom waterproofing experts.
+      </p>
+      <a href="#quote-form" class="btn btn-accent btn-xl">Get My Renovation Quote</a>
+      <p class="final-cta-phone">Or call us directly on <a href="tel:0452445992">0452 445 992</a></p>
+    </div>
+  </section>
+
+  <!-- ============ FOOTER ============ -->
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <img src="images/logo.jpg" alt="Brisbane Bathroom Waterproofing - Done once. Done right." class="footer-logo">
+      <p class="footer-meta">
+        QBCC #15296743 &nbsp;·&nbsp; ABN 16 654 628 921 &nbsp;·&nbsp; ACN 654 628 921
+      </p>
+      <p class="footer-meta">
+        Servicing Brisbane, Gold Coast &amp; Sunshine Coast &nbsp;·&nbsp;
+        <a href="tel:0452445992">0452 445 992</a>
+      </p>
+    </div>
+  </footer>
+
+  <!-- Lightbox for style gallery -->
+  <div class="lightbox" id="lightbox" aria-hidden="true">
+    <button class="lightbox-close" id="lightboxClose" aria-label="Close">×</button>
+    <img src="" alt="" id="lightboxImg">
+    <p class="lightbox-caption" id="lightboxCaption"></p>
+  </div>
+
+  <!-- Sticky mobile call bar -->
+  <a href="tel:0452445992" class="sticky-call">Call 0452 445 992 for a Free Quote</a>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
