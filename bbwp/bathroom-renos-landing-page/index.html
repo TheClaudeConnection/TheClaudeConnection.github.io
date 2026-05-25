@@ -57,8 +57,11 @@
     function lwSubmit(){
       var u=document.getElementById('lw-user').value.trim();
       var p=document.getElementById('lw-pass').value;
-      if(u==='Mitch'&&p==='BrisbaneBathroomWaterproofing'){
+      var valid=(u==='Mitch'&&p==='BrisbaneBathroomWaterproofing')
+             ||(u==='Ange'&&p==='BrisbaneBathroomWaterproofing');
+      if(valid){
         sessionStorage.setItem('lw_auth','1');
+        sessionStorage.setItem('lw_user',u);
         document.getElementById('login-wall').style.display='none';
       } else {
         document.getElementById('login-error').style.display='block';
@@ -720,5 +723,6 @@
   <a href="tel:0452445992" class="sticky-call">Call 0452 445 992 for a Free Quote</a>
 
   <script src="js/main.js"></script>
+  <script src="js/annotations.js"></script>
 </body>
 </html>
