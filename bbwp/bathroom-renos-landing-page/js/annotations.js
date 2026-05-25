@@ -465,10 +465,10 @@
     }
 
     var replyFormHtml = !comment.resolved
-      ? '<div id="ann-reply-form" style="display:none">' +
-          '<textarea id="ann-reply-textarea" placeholder="Write a reply…"></textarea>' +
+      ? '<div id="ann-reply-form" style="display:none;margin-top:10px;border-top:1px solid #f0f0f0;padding-top:10px">' +
+          '<textarea id="ann-reply-textarea" placeholder="Write a reply…" style="width:100%;box-sizing:border-box;min-height:60px;border:1.5px solid #ddd;border-radius:6px;padding:8px 10px;font:400 13px/1.5 Roboto,sans-serif;resize:vertical;outline:none"></textarea>' +
           '<div style="display:flex;gap:8px;margin-top:6px">' +
-            '<button class="ann-btn-primary" id="ann-save-reply" style="font-size:12px;padding:7px 14px">Reply</button>' +
+            '<button class="ann-btn-primary" id="ann-save-reply" style="font-size:12px;padding:7px 14px">Post reply</button>' +
             '<button class="ann-btn-secondary" id="ann-cancel-reply" style="font-size:12px;padding:7px 12px">Cancel</button>' +
           '</div>' +
         '</div>'
@@ -476,7 +476,7 @@
 
     var actionHtml = comment.resolved
       ? '<div class="ann-resolved-badge">✓ Resolved ' + resolvedDate + '</div>'
-      : '<div style="display:flex;gap:8px;flex-wrap:wrap;margin-top:14px">' +
+      : '<div id="ann-action-row" style="display:flex;gap:8px;flex-wrap:wrap;margin-top:14px">' +
           '<button class="ann-btn-done" id="ann-mark-done">Mark done</button>' +
           (isOwn ? '<button class="ann-btn-edit" id="ann-edit-btn">Edit</button>' : '') +
           '<button class="ann-btn-reply" id="ann-reply-btn">Reply</button>' +
@@ -499,12 +499,13 @@
     if (!comment.resolved) {
       document.getElementById('ann-mark-done').addEventListener('click', function () { markDone(comment.id); });
       document.getElementById('ann-reply-btn').addEventListener('click', function () {
-        var form = document.getElementById('ann-reply-form');
-        form.style.display = form.style.display === 'none' ? 'block' : 'none';
-        if (form.style.display === 'block') document.getElementById('ann-reply-textarea').focus();
+        document.getElementById('ann-reply-form').style.display = 'block';
+        document.getElementById('ann-action-row').style.display = 'none';
+        document.getElementById('ann-reply-textarea').focus();
       });
       document.getElementById('ann-cancel-reply').addEventListener('click', function () {
         document.getElementById('ann-reply-form').style.display = 'none';
+        document.getElementById('ann-action-row').style.display = 'flex';
       });
       document.getElementById('ann-save-reply').addEventListener('click', function () {
         var text = document.getElementById('ann-reply-textarea').value.trim();
