@@ -1,0 +1,72 @@
+<!--
+  ANNOTATION TOOL — LOGIN WALL SNIPPET
+  =====================================
+  Inject this block immediately after <body> in the target index.html.
+  Then add the script tag before </body>:
+    <script src="js/annotations.js?v=1"></script>
+
+  Replace these four placeholders before using:
+    BRAND_NAME         → e.g. "Acme Renovations"
+    CLIENT_USERNAME    → e.g. "John"   (the client's login name)
+    REVIEWER_USERNAME  → e.g. "Ange"  (your login name — leave as Ange unless changed)
+    SHARED_PASSWORD    → e.g. "AcmeRenovations2024"
+-->
+
+  <!-- ============ PREVIEW LOGIN WALL ============ -->
+  <div id="login-wall" style="
+    position:fixed;inset:0;z-index:99999;
+    background:#343D50;
+    display:flex;align-items:center;justify-content:center;
+    font-family:'Roboto',sans-serif;
+  ">
+    <div style="
+      background:#fff;border-radius:8px;padding:40px 36px;
+      width:100%;max-width:380px;box-shadow:0 8px 32px rgba(0,0,0,.25);
+      text-align:center;
+    ">
+      <p style="margin:0 0 6px;font-size:11px;letter-spacing:.1em;text-transform:uppercase;color:#6D996D;font-weight:600;">Client Preview</p>
+      <h2 style="margin:0 0 24px;font-size:22px;color:#343D50;font-weight:700;">BRAND_NAME</h2>
+      <div id="login-error" style="display:none;color:#c0392b;font-size:13px;margin-bottom:12px;">Incorrect username or password.</div>
+      <input id="lw-user" type="text" placeholder="Username" autocomplete="username" style="
+        width:100%;box-sizing:border-box;padding:11px 14px;
+        border:1.5px solid #ddd;border-radius:5px;font-size:15px;
+        margin-bottom:10px;outline:none;
+      ">
+      <input id="lw-pass" type="password" placeholder="Password" autocomplete="current-password" style="
+        width:100%;box-sizing:border-box;padding:11px 14px;
+        border:1.5px solid #ddd;border-radius:5px;font-size:15px;
+        margin-bottom:18px;outline:none;
+      ">
+      <button onclick="lwSubmit()" style="
+        width:100%;padding:13px;background:#7FDA54;border:none;
+        border-radius:5px;font-size:15px;font-weight:700;
+        color:#343D50;cursor:pointer;letter-spacing:.03em;
+      ">View Page</button>
+    </div>
+  </div>
+
+  <script>
+    (function(){
+      if(sessionStorage.getItem('lw_auth')==='1'&&sessionStorage.getItem('lw_user')){
+        document.getElementById('login-wall').style.display='none';
+      } else {
+        sessionStorage.removeItem('lw_auth');
+      }
+      document.getElementById('lw-pass').addEventListener('keydown',function(e){
+        if(e.key==='Enter') lwSubmit();
+      });
+    })();
+    function lwSubmit(){
+      var u=document.getElementById('lw-user').value.trim();
+      var p=document.getElementById('lw-pass').value;
+      var valid=(u==='CLIENT_USERNAME'&&p==='SHARED_PASSWORD')
+             ||(u==='REVIEWER_USERNAME'&&p==='SHARED_PASSWORD');
+      if(valid){
+        sessionStorage.setItem('lw_auth','1');
+        sessionStorage.setItem('lw_user',u);
+        document.getElementById('login-wall').style.display='none';
+      } else {
+        document.getElementById('login-error').style.display='block';
+      }
+    }
+  </script>
