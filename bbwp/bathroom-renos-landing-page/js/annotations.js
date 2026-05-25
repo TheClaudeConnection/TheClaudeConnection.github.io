@@ -10,7 +10,11 @@
   var feedbackActive = false;
   var pendingX = 0, pendingY = 0, pendingLandmark = '';
 
-  document.addEventListener('DOMContentLoaded', init);
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', init);
+  } else {
+    init();
+  }
 
   function init() {
     if (sessionStorage.getItem('lw_auth') !== '1') return;
