@@ -9,6 +9,7 @@
   var allComments = [];
   var feedbackActive = false;
   var pendingX = 0, pendingY = 0, pendingLandmark = '';
+  var initialized = false;
 
   if (document.readyState === 'loading') {
     document.addEventListener('DOMContentLoaded', init);
@@ -18,12 +19,16 @@
 
   function init() {
     if (sessionStorage.getItem('lw_auth') !== '1') return;
+    if (initialized) return;
+    initialized = true;
     injectStyles();
     injectAnnotationUI();
     wireEvents();
     loadComments();
     setInterval(loadComments, 10000);
   }
+
+  window.__annInit = init;
 
   // ─── Supabase ────────────────────────────────────────────────────────────────
 

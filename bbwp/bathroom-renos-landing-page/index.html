@@ -65,6 +65,7 @@
         sessionStorage.setItem('lw_auth','1');
         sessionStorage.setItem('lw_user',u);
         document.getElementById('login-wall').style.display='none';
+        if(window.__annInit) window.__annInit();
       } else {
         document.getElementById('login-error').style.display='block';
       }
