@@ -11,14 +11,7 @@
   var pendingX = 0, pendingY = 0, pendingLandmark = '';
   var initialized = false;
 
-  if (document.readyState === 'loading') {
-    document.addEventListener('DOMContentLoaded', init);
-  } else {
-    init();
-  }
-
   function init() {
-    if (sessionStorage.getItem('lw_auth') !== '1') return;
     if (initialized) return;
     initialized = true;
     injectStyles();
@@ -28,7 +21,19 @@
     setInterval(loadComments, 10000);
   }
 
-  window.__annInit = init;
+  function waitForAuth() {
+    if (sessionStorage.getItem('lw_auth') === '1' && sessionStorage.getItem('lw_user')) {
+      init();
+    } else {
+      setTimeout(waitForAuth, 300);
+    }
+  }
+
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', waitForAuth);
+  } else {
+    waitForAuth();
+  }
 
   // ─── Supabase ────────────────────────────────────────────────────────────────
 
