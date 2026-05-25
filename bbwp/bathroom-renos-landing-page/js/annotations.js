@@ -67,6 +67,25 @@
     });
   }
 
+  function saveReply(parentId, text) {
+    return fetch(ENDPOINT, {
+      method: 'POST',
+      headers: headers(true),
+      body: JSON.stringify({
+        page_id: PAGE_ID,
+        parent_id: parentId,
+        comment_text: text,
+        author: sessionStorage.getItem('lw_user') || 'Anonymous',
+        resolved: false
+      })
+    }).then(function (res) {
+      if (!res.ok) throw new Error('reply ' + res.status);
+      return res.json();
+    }).then(function (data) {
+      return Array.isArray(data) ? data[0] : data;
+    });
+  }
+
   function updateComment(id, newText) {
     return fetch(ENDPOINT + '?id=eq.' + id, {
       method: 'PATCH',
@@ -159,7 +178,7 @@
       '.ann-btn-primary:hover{background:#6bc944}',
       '.ann-btn-secondary{background:none;color:#888;border:1.5px solid #ddd;border-radius:6px;padding:9px 14px;font:400 13px/1 Roboto,sans-serif;cursor:pointer}',
       '.ann-btn-secondary:hover{border-color:#aaa;color:#555}',
-      '#ann-popover{padding:18px;width:280px;max-width:calc(100vw - 32px)}',
+      '#ann-popover{padding:18px;width:300px;max-width:calc(100vw - 32px)}',
       '#ann-popover .ann-pop-num{font-size:22px;font-weight:700;color:#7FDA54;margin-bottom:4px}',
       '#ann-popover .ann-pop-landmark{font-size:11px;color:#aaa;font-style:italic;margin-bottom:10px}',
       '#ann-popover .ann-pop-text{font-size:14px;line-height:1.5;margin-bottom:10px;color:#343D50}',
@@ -167,7 +186,16 @@
       '#ann-popover .ann-resolved-badge{font-size:12px;color:#6D996D;font-weight:700;letter-spacing:.05em}',
       '.ann-btn-done,.ann-btn-edit{background:none;border:1.5px solid #343D50;color:#343D50;border-radius:6px;padding:7px 14px;font:700 12px/1 Roboto,sans-serif;cursor:pointer}',
       '.ann-btn-done:hover,.ann-btn-edit:hover{background:#343D50;color:#fff}',
+      '.ann-btn-reply{background:none;border:1.5px solid #6D996D;color:#6D996D;border-radius:6px;padding:7px 14px;font:700 12px/1 Roboto,sans-serif;cursor:pointer}',
+      '.ann-btn-reply:hover{background:#6D996D;color:#fff}',
       '.ann-pop-close{position:absolute;top:12px;right:14px;background:none;border:none;font-size:18px;cursor:pointer;color:#aaa;line-height:1;padding:0}',
+      '.ann-replies{border-top:1px solid #f0f0f0;margin-top:10px;padding-top:10px}',
+      '.ann-reply{margin-bottom:8px;padding-left:10px;border-left:2px solid #7FDA54}',
+      '.ann-reply-meta{font-size:11px;color:#aaa;margin-bottom:3px}',
+      '.ann-reply-text{font-size:13px;color:#343D50;line-height:1.4}',
+      '#ann-reply-form{margin-top:10px;border-top:1px solid #f0f0f0;padding-top:10px}',
+      '#ann-reply-form textarea{width:100%;box-sizing:border-box;min-height:60px;border:1.5px solid #ddd;border-radius:6px;padding:8px 10px;font:400 13px/1.5 Roboto,sans-serif;resize:vertical;outline:none}',
+      '#ann-reply-form textarea:focus{border-color:#7FDA54}',
       '#ann-sidebar{position:fixed;right:0;top:78px;z-index:430;height:calc(100vh - 78px);width:0;overflow:hidden;background:#fff;box-shadow:-4px 0 20px rgba(0,0,0,.12);transition:width .25s ease;font:400 13px/1.5 Roboto,sans-serif;color:#343D50}',
       '#ann-sidebar.open{width:300px}',
       '#ann-sidebar-tab{position:fixed;right:0;top:50%;transform:translateY(-50%);z-index:431;background:#343D50;color:#fff;writing-mode:vertical-rl;padding:14px 8px;cursor:pointer;font:700 11px/1 Roboto,sans-serif;letter-spacing:.08em;border-radius:6px 0 0 6px;box-shadow:-2px 0 8px rgba(0,0,0,.15);transition:right .25s ease}',
@@ -335,7 +363,7 @@
   function renderAllPins(comments) {
     var overlay = document.getElementById('ann-overlay');
     overlay.innerHTML = '';
-    comments.forEach(function (comment, i) {
+    comments.filter(function (c) { return !c.parent_id; }).forEach(function (comment, i) {
       overlay.appendChild(renderPin(comment, i + 1));
     });
   }
@@ -356,8 +384,9 @@
   }
 
   function renderSidebar(comments) {
-    var open = comments.filter(function (c) { return !c.resolved; });
-    var resolved = comments.filter(function (c) { return c.resolved; });
+    var topLevel = comments.filter(function (c) { return !c.parent_id; });
+    var open = topLevel.filter(function (c) { return !c.resolved; });
+    var resolved = topLevel.filter(function (c) { return c.resolved; });
     var tab = document.getElementById('ann-sidebar-tab');
     if (tab) tab.textContent = 'Comments (' + open.length + ')';
     var content = document.getElementById('ann-sb-content');
@@ -367,13 +396,13 @@
     if (!open.length) {
       html += '<div class="ann-sb-empty">No open comments</div>';
     } else {
-      open.forEach(function (c) { html += sidebarItem(c, comments.indexOf(c) + 1, false); });
+      open.forEach(function (c) { html += sidebarItem(c, topLevel.indexOf(c) + 1, false, comments); });
     }
     html += '</div>';
 
     if (resolved.length) {
       html += '<div class="ann-sb-section"><div class="ann-sb-section-title">Resolved (' + resolved.length + ')</div>';
-      resolved.forEach(function (c) { html += sidebarItem(c, comments.indexOf(c) + 1, true); });
+      resolved.forEach(function (c) { html += sidebarItem(c, topLevel.indexOf(c) + 1, true, comments); });
       html += '</div>';
     }
 
@@ -393,16 +422,18 @@
     });
   }
 
-  function sidebarItem(comment, index, isResolved) {
+  function sidebarItem(comment, index, isResolved, allCmts) {
     var short = comment.comment_text.length > 60
       ? comment.comment_text.slice(0, 60) + '…'
       : comment.comment_text;
     var date = new Date(comment.created_at).toLocaleString('en-AU', { dateStyle: 'short', timeStyle: 'short' });
+    var replyCount = (allCmts || []).filter(function (c) { return c.parent_id === comment.id; }).length;
+    var replyLabel = replyCount ? ' \xB7 ' + replyCount + (replyCount === 1 ? ' reply' : ' replies') : '';
     return '<div class="ann-sb-item' + (isResolved ? ' resolved' : '') + '">' +
       '<div class="ann-sb-num">' + index + '</div>' +
       '<div class="ann-sb-content">' +
         '<div class="ann-sb-text">' + escHtml(short) + '</div>' +
-        '<div class="ann-sb-meta">' + escHtml(comment.author) + ' \xB7 ' + date + '</div>' +
+        '<div class="ann-sb-meta">' + escHtml(comment.author) + ' \xB7 ' + date + replyLabel + '</div>' +
         '<button class="ann-sb-jump" data-id="' + comment.id + '">Jump to</button>' +
       '</div>' +
     '</div>';
@@ -412,15 +443,43 @@
 
   function openPopover(comment, pinEl, index) {
     var popover = document.getElementById('ann-popover');
+    var currentUser = sessionStorage.getItem('lw_user');
+    var isOwn = comment.author === currentUser;
     var date = new Date(comment.created_at).toLocaleString('en-AU', { dateStyle: 'medium', timeStyle: 'short' });
     var resolvedDate = comment.resolved_at
       ? new Date(comment.resolved_at).toLocaleString('en-AU', { dateStyle: 'medium', timeStyle: 'short' })
       : '';
+
+    var replies = allComments.filter(function (c) { return c.parent_id === comment.id; });
+    var repliesHtml = '';
+    if (replies.length) {
+      repliesHtml = '<div class="ann-replies">';
+      replies.forEach(function (r) {
+        var rDate = new Date(r.created_at).toLocaleString('en-AU', { dateStyle: 'short', timeStyle: 'short' });
+        repliesHtml += '<div class="ann-reply">' +
+          '<div class="ann-reply-meta">' + escHtml(r.author) + ' \xB7 ' + rDate + '</div>' +
+          '<div class="ann-reply-text">' + escHtml(r.comment_text) + '</div>' +
+        '</div>';
+      });
+      repliesHtml += '</div>';
+    }
+
+    var replyFormHtml = !comment.resolved
+      ? '<div id="ann-reply-form" style="display:none">' +
+          '<textarea id="ann-reply-textarea" placeholder="Write a reply…"></textarea>' +
+          '<div style="display:flex;gap:8px;margin-top:6px">' +
+            '<button class="ann-btn-primary" id="ann-save-reply" style="font-size:12px;padding:7px 14px">Reply</button>' +
+            '<button class="ann-btn-secondary" id="ann-cancel-reply" style="font-size:12px;padding:7px 12px">Cancel</button>' +
+          '</div>' +
+        '</div>'
+      : '';
+
     var actionHtml = comment.resolved
       ? '<div class="ann-resolved-badge">✓ Resolved ' + resolvedDate + '</div>'
-      : '<div style="display:flex;gap:8px">' +
+      : '<div style="display:flex;gap:8px;flex-wrap:wrap;margin-top:14px">' +
           '<button class="ann-btn-done" id="ann-mark-done">Mark done</button>' +
-          '<button class="ann-btn-edit" id="ann-edit-btn">Edit</button>' +
+          (isOwn ? '<button class="ann-btn-edit" id="ann-edit-btn">Edit</button>' : '') +
+          '<button class="ann-btn-reply" id="ann-reply-btn">Reply</button>' +
         '</div>';
 
     popover.innerHTML =
@@ -429,22 +488,43 @@
       '<div class="ann-pop-landmark">' + escHtml(comment.landmark || 'body') + '</div>' +
       '<div class="ann-pop-text" id="ann-pop-text">' + escHtml(comment.comment_text) + '</div>' +
       '<div class="ann-pop-meta">' + escHtml(comment.author) + ' \xB7 ' + date + '</div>' +
+      repliesHtml +
+      replyFormHtml +
       actionHtml;
 
     popover.style.display = 'block';
 
     document.getElementById('ann-pop-close').addEventListener('click', closePopover);
+
     if (!comment.resolved) {
-      document.getElementById('ann-mark-done').addEventListener('click', function () {
-        markDone(comment.id);
+      document.getElementById('ann-mark-done').addEventListener('click', function () { markDone(comment.id); });
+      document.getElementById('ann-reply-btn').addEventListener('click', function () {
+        var form = document.getElementById('ann-reply-form');
+        form.style.display = form.style.display === 'none' ? 'block' : 'none';
+        if (form.style.display === 'block') document.getElementById('ann-reply-textarea').focus();
       });
-      document.getElementById('ann-edit-btn').addEventListener('click', function () {
-        startEditing(comment, index);
+      document.getElementById('ann-cancel-reply').addEventListener('click', function () {
+        document.getElementById('ann-reply-form').style.display = 'none';
       });
+      document.getElementById('ann-save-reply').addEventListener('click', function () {
+        var text = document.getElementById('ann-reply-textarea').value.trim();
+        if (!text) return;
+        saveReply(comment.id, text).then(function (reply) {
+          allComments.push(reply);
+          renderSidebar(allComments);
+          openPopover(comment, pinEl, index);
+          showToast('Reply saved');
+        }).catch(function () {
+          showToast('Could not save — try again');
+        });
+      });
+      if (isOwn) {
+        document.getElementById('ann-edit-btn').addEventListener('click', function () { startEditing(comment, index); });
+      }
     }
 
     var rect = pinEl.getBoundingClientRect();
-    var pw = 280, ph = 200;
+    var pw = 300, ph = 240;
     var left = rect.right + 10;
     var top = rect.top - 10;
     if (left + pw > window.innerWidth - 16) left = rect.left - pw - 10;
