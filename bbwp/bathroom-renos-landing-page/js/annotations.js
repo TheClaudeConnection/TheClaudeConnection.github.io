@@ -67,6 +67,19 @@
     });
   }
 
+  function updateComment(id, newText) {
+    return fetch(ENDPOINT + '?id=eq.' + id, {
+      method: 'PATCH',
+      headers: headers(true),
+      body: JSON.stringify({ comment_text: newText })
+    }).then(function (res) {
+      if (!res.ok) throw new Error('update ' + res.status);
+      return res.json();
+    }).then(function (data) {
+      return Array.isArray(data) ? data[0] : data;
+    });
+  }
+
   function resolveComment(id) {
     return fetch(ENDPOINT + '?id=eq.' + id, {
       method: 'PATCH',
@@ -152,8 +165,8 @@
       '#ann-popover .ann-pop-text{font-size:14px;line-height:1.5;margin-bottom:10px;color:#343D50}',
       '#ann-popover .ann-pop-meta{font-size:11px;color:#888;margin-bottom:14px}',
       '#ann-popover .ann-resolved-badge{font-size:12px;color:#6D996D;font-weight:700;letter-spacing:.05em}',
-      '.ann-btn-done{background:none;border:1.5px solid #343D50;color:#343D50;border-radius:6px;padding:7px 14px;font:700 12px/1 Roboto,sans-serif;cursor:pointer}',
-      '.ann-btn-done:hover{background:#343D50;color:#fff}',
+      '.ann-btn-done,.ann-btn-edit{background:none;border:1.5px solid #343D50;color:#343D50;border-radius:6px;padding:7px 14px;font:700 12px/1 Roboto,sans-serif;cursor:pointer}',
+      '.ann-btn-done:hover,.ann-btn-edit:hover{background:#343D50;color:#fff}',
       '.ann-pop-close{position:absolute;top:12px;right:14px;background:none;border:none;font-size:18px;cursor:pointer;color:#aaa;line-height:1;padding:0}',
       '#ann-sidebar{position:fixed;right:0;top:78px;z-index:430;height:calc(100vh - 78px);width:0;overflow:hidden;background:#fff;box-shadow:-4px 0 20px rgba(0,0,0,.12);transition:width .25s ease;font:400 13px/1.5 Roboto,sans-serif;color:#343D50}',
       '#ann-sidebar.open{width:300px}',
@@ -405,13 +418,16 @@
       : '';
     var actionHtml = comment.resolved
       ? '<div class="ann-resolved-badge">✓ Resolved ' + resolvedDate + '</div>'
-      : '<button class="ann-btn-done" id="ann-mark-done">Mark done</button>';
+      : '<div style="display:flex;gap:8px">' +
+          '<button class="ann-btn-done" id="ann-mark-done">Mark done</button>' +
+          '<button class="ann-btn-edit" id="ann-edit-btn">Edit</button>' +
+        '</div>';
 
     popover.innerHTML =
       '<button class="ann-pop-close" id="ann-pop-close">\xD7</button>' +
       '<div class="ann-pop-num">#' + index + '</div>' +
       '<div class="ann-pop-landmark">' + escHtml(comment.landmark || 'body') + '</div>' +
-      '<div class="ann-pop-text">' + escHtml(comment.comment_text) + '</div>' +
+      '<div class="ann-pop-text" id="ann-pop-text">' + escHtml(comment.comment_text) + '</div>' +
       '<div class="ann-pop-meta">' + escHtml(comment.author) + ' \xB7 ' + date + '</div>' +
       actionHtml;
 
@@ -421,6 +437,9 @@
     if (!comment.resolved) {
       document.getElementById('ann-mark-done').addEventListener('click', function () {
         markDone(comment.id);
+      });
+      document.getElementById('ann-edit-btn').addEventListener('click', function () {
+        startEditing(comment, index);
       });
     }
 
@@ -444,6 +463,40 @@
       }
       document.addEventListener('click', outsideClick);
     }, 0);
+  }
+
+  function startEditing(comment, index) {
+    var textEl = document.getElementById('ann-pop-text');
+    var actionsEl = textEl.nextElementSibling.nextElementSibling; // the actions div
+    textEl.innerHTML =
+      '<textarea id="ann-edit-textarea" style="width:100%;box-sizing:border-box;min-height:70px;border:1.5px solid #7FDA54;border-radius:6px;padding:8px 10px;font:400 14px/1.5 Roboto,sans-serif;resize:vertical;outline:none;margin-bottom:8px">' +
+      escHtml(comment.comment_text) +
+      '</textarea>' +
+      '<div style="display:flex;gap:8px">' +
+        '<button class="ann-btn-primary" id="ann-save-edit" style="font-size:12px;padding:7px 14px">Save</button>' +
+        '<button class="ann-btn-secondary" id="ann-cancel-edit" style="font-size:12px;padding:7px 12px">Cancel</button>' +
+      '</div>';
+
+    document.getElementById('ann-edit-textarea').focus();
+
+    document.getElementById('ann-cancel-edit').addEventListener('click', function () {
+      openPopover(comment, document.querySelector('.ann-pin[data-id="' + comment.id + '"]'), index);
+    });
+
+    document.getElementById('ann-save-edit').addEventListener('click', function () {
+      var newText = document.getElementById('ann-edit-textarea').value.trim();
+      if (!newText) return;
+      updateComment(comment.id, newText).then(function () {
+        var idx = allComments.findIndex(function (c) { return c.id === comment.id; });
+        if (idx !== -1) allComments[idx].comment_text = newText;
+        comment.comment_text = newText;
+        renderSidebar(allComments);
+        openPopover(comment, document.querySelector('.ann-pin[data-id="' + comment.id + '"]'), index);
+        showToast('Comment updated');
+      }).catch(function () {
+        showToast('Could not update — try again');
+      });
+    });
   }
 
   function closePopover() {

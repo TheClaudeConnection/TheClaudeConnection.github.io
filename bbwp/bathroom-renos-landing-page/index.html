@@ -47,8 +47,10 @@
 
   <script>
     (function(){
-      if(sessionStorage.getItem('lw_auth')==='1'){
+      if(sessionStorage.getItem('lw_auth')==='1'&&sessionStorage.getItem('lw_user')){
         document.getElementById('login-wall').style.display='none';
+      } else {
+        sessionStorage.removeItem('lw_auth');
       }
       document.getElementById('lw-pass').addEventListener('keydown',function(e){
         if(e.key==='Enter') lwSubmit();
